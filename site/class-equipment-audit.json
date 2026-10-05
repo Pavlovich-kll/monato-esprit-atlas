@@ -1,0 +1,1346 @@
+{
+  "date": "2026-10-04",
+  "selectedLevel": 40,
+  "itemInfoSha256": "991400166257efd6390ee4eca2ff8b48b74f0f3eb38b763ad74b26ccc7939f66",
+  "selection": "Highest original minimum level no higher than the selected tier 40, per class-compatible visible slot; strongest enhanced Fine variant at that level. Equipment requirement is not asserted to be a character level cap.",
+  "classes": [
+    {
+      "id": "Novice",
+      "image": "assets/class-novice-best.webp",
+      "status": "original_selected_level_fine_equipment",
+      "equipmentLevel": 1,
+      "equipment": [
+        130001,
+        131001,
+        132001,
+        133001,
+        134001,
+        110001,
+        129001
+      ],
+      "imageGender": "female",
+      "source": "class-equipment-audit.json",
+      "selected": [
+        {
+          "id": 130001,
+          "name": "Fine Novice's Cap",
+          "level": 1,
+          "slot": 1,
+          "modifier": {
+            "path": "Characters/Cap/equ_cap_nov001(f).mod",
+            "sha256": "091f95771d6929c39eaff0af181d226439c13557272d318ab1152445cdf5b845",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\cap\\cap_dugun.tmd"
+          ],
+          "nativeSha256": "cb91d5d0cb367d5d0fd07420d204f4425c51c616b94ac806f1962cda6b5dcfbc"
+        },
+        {
+          "id": 131001,
+          "name": "Fine Novice's Shirt",
+          "level": 1,
+          "slot": 4,
+          "modifier": {
+            "path": "Characters/Equip/equ_coat_nov001(f).mod",
+            "sha256": "72e8414a3b6a0fad65f553101efe3d2071b32fb1a4cedf9830ba5b0db3979786",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_novice_gajuk_coat_2.tmd"
+          ],
+          "nativeSha256": "68d93a135395d4f14ad63964be2dbb9db8e0c23ee74f144ed604a4a943d83700"
+        },
+        {
+          "id": 132001,
+          "name": "Fine Novice's Pants",
+          "level": 1,
+          "slot": 5,
+          "modifier": {
+            "path": "Characters/Equip/equ_pants_nov001(f).mod",
+            "sha256": "0e8b8a922fa672a25a2dd34d81056468b1fa14a78ed0ec56e7f803fb48c2ca02",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_novice_gajuk_pants_2.tmd"
+          ],
+          "nativeSha256": "b2bf9fef83d9fdb043ef8aaaf13e70238483b54c088bdbf2499a690c50481ef1"
+        },
+        {
+          "id": 133001,
+          "name": "Fine Novice's Gloves",
+          "level": 1,
+          "slot": 6,
+          "modifier": {
+            "path": "Characters/Equip/equ_glove_nov001(f).mod",
+            "sha256": "8f3fcea004013e53fd2beea27beee9755378da72a9406d63f8e390fd1942d314",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_novice_gajuk_glove_1.tmd"
+          ],
+          "nativeSha256": "045199deb8ed9f3aaa3230e426777f7c93604d1d687bfa14e3ab47f16a6adf3f"
+        },
+        {
+          "id": 134001,
+          "name": "Fine Novice's Shoes",
+          "level": 1,
+          "slot": 7,
+          "modifier": {
+            "path": "Characters/Equip/equ_shoes_nov001(f).mod",
+            "sha256": "a50f34bb27bd2414c43ec348f826f9d0e63bb33d798e2f876b1d5996f4fa6ec8",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_novice_gajuk_boots_2.tmd"
+          ],
+          "nativeSha256": "6c014d8f534fcfe710ba9fe310fc32509ef6cf86131c096972af76f9c80d5141"
+        },
+        {
+          "id": 110001,
+          "name": "Fine Novice's Knife",
+          "level": 1,
+          "slot": 2,
+          "modifier": {
+            "path": "Characters/Weapon/equ_dagger001(f).mod",
+            "sha256": "b1a4210210c62450f46a8a671dc693dbd9b3de8c2deccc4d6bd23eb0ef3ae8f0",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\dagger_1.tmd"
+          ],
+          "nativeSha256": "9b5892d8c0806e75d2a2231c78eca11f610f53af3fee012a372ca639afd5be0e"
+        },
+        {
+          "id": 129001,
+          "name": "Fine Kalkan",
+          "level": 1,
+          "slot": 3,
+          "modifier": {
+            "path": "Characters/Weapon/kalkan(f).mod",
+            "sha256": "0c35ad024d4ea465f3d4041e24c6a37dac88fefdc83bbe1e8f501d0c2594a57c",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\kalkan.tmd"
+          ],
+          "nativeSha256": "d948082df275b53e2d22a7fd2f39174541a14993bf556c70baac1f0e9e13464d"
+        }
+      ],
+      "render": {
+        "size": [
+          1024,
+          1024
+        ],
+        "triangles": 1491,
+        "animation": "AA",
+        "pixel_bbox": [
+          232,
+          77,
+          792,
+          947
+        ]
+      },
+      "model": {
+        "id": 910000,
+        "original_name": "Novice",
+        "assembly": "Characters/f_novice.obj",
+        "require_idle": false,
+        "requested_clips": [
+          "AA"
+        ],
+        "output": "910000.glb",
+        "source_scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "editor_translation_ignored": [
+          3142.07568359375,
+          80.0,
+          4190.44921875
+        ],
+        "vertices": 1814,
+        "triangles": 1491,
+        "clips": [
+          "AA"
+        ],
+        "parts": [
+          "Characters/female_ani_all.tmd",
+          "Characters/Girl_face_01.TMD",
+          "Characters/Hair/f_hair_a_a.TMD",
+          "Characters/Cap/Cap_Dugun.TMD",
+          "Characters/Equip/f_novice_gajuk_coat_2.TMD",
+          "Characters/Equip/f_novice_gajuk_pants_2.TMD",
+          "Characters/Equip/f_novice_gajuk_glove_1.TMD",
+          "Characters/Equip/f_novice_gajuk_boots_2.TMD",
+          "Characters/Weapon/dagger_1.TMD",
+          "Characters/Weapon/kalkan.TMD"
+        ],
+        "manifest": [
+          {
+            "source": "Characters/Cap/Cap_Dugun.TMD",
+            "sha256": "d1b72174a938d7f152fc74dbbe06a53d8060b60cb48db181632b0523be5b24be"
+          },
+          {
+            "source": "Characters/Cap/item_weapon.dds",
+            "sha256": "47cc0e6562a999e86be5877c547d88911f3533fa043719adf7824bcee331d311"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_boots_2.TMD",
+            "sha256": "7752d646ed832b939c4162fc798c03c8252af7151cb92173acce19db1fa3a45d"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_boots_2.dds",
+            "sha256": "3dc18ff05c6dd998e0c6999848cf9503fd35b7b91b29d20fcfada8df339dc503"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_coat_2.TMD",
+            "sha256": "a3290b441021c71a8c6f9a8327d125a5f6a44269e3faea95743f37b1842113f1"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_coat_2.dds",
+            "sha256": "6ed65c67105cbc904b67b8a0ba4a7881bfed67bcf86ae0a460afb051e255eb03"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_glove_1.TMD",
+            "sha256": "203c5f3c257188e79336bf29d7e548ed9d3ec35c46d8ab78b803e57a8e16b127"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_pant_2.dds",
+            "sha256": "650dabbeb8e103d9b0a3eb5f23158689f9be791aeb30adab2f3e08fefaed277a"
+          },
+          {
+            "source": "Characters/Equip/f_novice_gajuk_pants_2.TMD",
+            "sha256": "7725eb17d9f848ea6c97b681d8f2f8c47374fc1cb1248bff916c02dfe85ad61e"
+          },
+          {
+            "source": "Characters/Equip/girl_face_1.dds",
+            "sha256": "812300a98ed9fc003ea6f6b6887ed55813c350960782f49d39475d919dfde39f"
+          },
+          {
+            "source": "Characters/Equip/girl_skin_pant_0.dds",
+            "sha256": "fc1538685cd1baa107059fae8f95501a7bca0ff8f6216e2b41147c92b1738de8"
+          },
+          {
+            "source": "Characters/Equip/m_novice_gajuk_1.dds",
+            "sha256": "cde3904bc4f4d2f78372c14391fb676a96211c024bd8b87a01d012489f62f4b4"
+          },
+          {
+            "source": "Characters/Eye/F_Eye_a_a.dds",
+            "sha256": "86e9884119262635adb47d70c4af1cc0961908e6fac7e933338986741ad615b6"
+          },
+          {
+            "source": "Characters/Girl_face_01.TMD",
+            "sha256": "d2865d95043c86fdefb00f0c2e8fbcd606181d190619c75984a7bf8de8c48773"
+          },
+          {
+            "source": "Characters/Hair/Girl_Hair_A.dds",
+            "sha256": "159519d8e9a24dfd2d0086e9c5ea8484722f0e0204abf99ae189b5ecdfefa53b"
+          },
+          {
+            "source": "Characters/Hair/f_hair_a_a.TMD",
+            "sha256": "d3f2ea042dc7c2365bc0e8b4437d9de6b82de8d250a115128b5a786d49b86eef"
+          },
+          {
+            "source": "Characters/Weapon/dagger_1.TMD",
+            "sha256": "9d7563ff7f343b3025f268595ae7dd97844fd2c688c2215a4ebc3e69456474f0"
+          },
+          {
+            "source": "Characters/Weapon/kalkan.TMD",
+            "sha256": "569fecda659020b099682ed6512b6181d26e5d9d21fb3ad85a7aff32630655c9"
+          },
+          {
+            "source": "Characters/Weapon/shield_2nd.DDS",
+            "sha256": "6a6dbd50451a94884f0572bd6f9ab207801db56613d3ad83c0fb362658a66d8d"
+          },
+          {
+            "source": "Characters/f_novice.obj",
+            "sha256": "d0647d8f9a5bc85537276cf5bac24ce3ccd96fcaa6be69fc81fc87a5f9d6a529"
+          },
+          {
+            "source": "Characters/female_ani_all.tmd",
+            "sha256": "6bf6f9c6b0c660de0d3642ac4f7a29163a52b9cdb2343ad98fad248f2216dda6"
+          }
+        ]
+      },
+      "previewHiddenMeshes": []
+    },
+    {
+      "id": "Templer",
+      "image": "assets/class-templer-best.webp",
+      "status": "original_selected_level_fine_equipment",
+      "equipmentLevel": 40,
+      "equipment": [
+        130115,
+        131115,
+        132115,
+        133115,
+        134115,
+        111115,
+        129115
+      ],
+      "imageGender": "female",
+      "source": "class-equipment-audit.json",
+      "selected": [
+        {
+          "id": 130115,
+          "name": "Fine Sallet",
+          "level": 40,
+          "slot": 1,
+          "modifier": {
+            "path": "Characters/Cap/sallet(f).mod",
+            "sha256": "f2632c787629cad935381f85215a55a7bc170698ee6112dd1d109e72ac8b2a1d",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\cap\\sallet.tmd"
+          ],
+          "nativeSha256": "1786357573dcd03e8578557aaf7a8191e3ef6b1bdb03d160578cb08f1813a3d0"
+        },
+        {
+          "id": 131115,
+          "name": "Fine Chain mail",
+          "level": 40,
+          "slot": 4,
+          "modifier": {
+            "path": "Characters/Equip/chainmail(f).mod",
+            "sha256": "93f334eb13d42eaa3518a937a843bd5c13f0b77c826063909bb8e70c0318ced1",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chainmail.tmd"
+          ],
+          "nativeSha256": "246281d5bc2c766f5442f46348aa8f5cdf3c568df47df7419a78d58f57a5f617"
+        },
+        {
+          "id": 132115,
+          "name": "Fine Chain Leggings",
+          "level": 40,
+          "slot": 5,
+          "modifier": {
+            "path": "Characters/Equip/chainleggings(f).mod",
+            "sha256": "6e070f8e5bfd3f1751781f2512353d9c59da731a9893c3889a2850798c1705d1",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_leggings.tmd",
+            "characters\\equip\\f_chain_skirt.tmd"
+          ],
+          "nativeSha256": "787bf2a0e95da1f646609024a874379c923e6e29ee54b0904cd550efee626058"
+        },
+        {
+          "id": 133115,
+          "name": "Fine Chain Gauntlets",
+          "level": 40,
+          "slot": 6,
+          "modifier": {
+            "path": "Characters/Equip/chaingauntlets(f).mod",
+            "sha256": "ddd4b7d6c867c90c21d4ef1cfcd87df3dd03e3ae4f62b8229533586b96a5e45c",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_gauntlets.tmd"
+          ],
+          "nativeSha256": "ad3a845fb279d71aa53332a49aec6ab4dd9263f54d7ecc4b2901ee6c4f98412f"
+        },
+        {
+          "id": 134115,
+          "name": "Fine Chain Boots",
+          "level": 40,
+          "slot": 7,
+          "modifier": {
+            "path": "Characters/Equip/chainboots(f).mod",
+            "sha256": "982ff09ffba173ebcd45d6da5394af7a9705107283d1878a455aa77f3a83f7c7",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_boots.tmd"
+          ],
+          "nativeSha256": "95d47471c9449c46f24141256d3e721243693dfcd3c096d2acf4d4c38bd0598f"
+        },
+        {
+          "id": 111115,
+          "name": "Fine Rapier",
+          "level": 40,
+          "slot": 2,
+          "modifier": {
+            "path": "Characters/Weapon/rapier(f).mod",
+            "sha256": "10b812465b892bc1a32ff14dfe6a67f78f00d1d3765e2b50dd35efe275d21fb5",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\rapier.tmd"
+          ],
+          "nativeSha256": "c2dff3daef4c4294ef3dc6f25415c22548d8d8db08d6cbf4092fc524aaa88a54"
+        },
+        {
+          "id": 129115,
+          "name": "Fine Kite Shield",
+          "level": 40,
+          "slot": 3,
+          "modifier": {
+            "path": "Characters/Weapon/kiteshield(f).mod",
+            "sha256": "a37d356b4be937ac82d31a133d9832c2cb63823f6de7cb3d6854734793a5c95c",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\kiteshield.tmd"
+          ],
+          "nativeSha256": "75d450edd65cd4ad67814ad2484f79b9b5488b72e6bd8e2898212a4e8fca468c"
+        }
+      ],
+      "render": {
+        "size": [
+          1024,
+          1024
+        ],
+        "triangles": 2271,
+        "animation": "AA",
+        "pixel_bbox": [
+          92,
+          131,
+          930,
+          893
+        ]
+      },
+      "model": {
+        "id": 910001,
+        "original_name": "Templer",
+        "assembly": "Characters/f_templer.obj",
+        "require_idle": false,
+        "requested_clips": [
+          "AA"
+        ],
+        "output": "910001.glb",
+        "source_scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "editor_translation_ignored": [
+          3142.07568359375,
+          80.0,
+          4190.44921875
+        ],
+        "vertices": 2286,
+        "triangles": 2271,
+        "clips": [
+          "AA"
+        ],
+        "parts": [
+          "Characters/female_ani_all.tmd",
+          "Characters/Girl_face_01.TMD",
+          "Characters/Hair/f_hair_a_a.TMD",
+          "Characters/Cap/sallet.TMD",
+          "Characters/Equip/f_chainmail.TMD",
+          "Characters/Equip/f_chain_leggings.TMD",
+          "Characters/Equip/f_chain_skirt.TMD",
+          "Characters/Equip/f_chain_gauntlets.TMD",
+          "Characters/Equip/f_chain_boots.TMD",
+          "Characters/Weapon/rapier.TMD",
+          "Characters/Weapon/kiteshield.TMD"
+        ],
+        "manifest": [
+          {
+            "source": "Characters/Cap/cap_7.DDS",
+            "sha256": "c25148f38a524b6688cb2d7560dda80c565c933fd7cdbe84fa9d64495030d151"
+          },
+          {
+            "source": "Characters/Cap/item_weapon.dds",
+            "sha256": "47cc0e6562a999e86be5877c547d88911f3533fa043719adf7824bcee331d311"
+          },
+          {
+            "source": "Characters/Cap/sallet.TMD",
+            "sha256": "f54886aff33dafad1350d64e1a011c5129f7a309e0e720e401810cd9f27dc9f4"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine.dds",
+            "sha256": "3fec09d60b14d7ade13cad8c8d3f2738f3373c4f6edfcc111dca81e90e284bf9"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_boots.dds",
+            "sha256": "f9e530f58e1b56ab518ff3a249bffedbcb11564348fc95fb784d7bfb6e092a96"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_gauntlets.dds",
+            "sha256": "4933314d9f3128ad6cf0e78f30b8a9d3a234f3f50d995b10c71d80c83487f09a"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_leggings.dds",
+            "sha256": "1d7602b1d5c1b1e42bcdccaa929bf142c21137ccbb1b6f7d6fe6e37a3e48f6ef"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_skirt.dds",
+            "sha256": "f49758bc5f6da832207669ce972a89476658b22d2e6ac8f1ddcfa9721045fc79"
+          },
+          {
+            "source": "Characters/Equip/f_chain_boots.TMD",
+            "sha256": "f1792924e87198d3fc506cfbed3273f0655d3c9b087875e9faefd919fbad862d"
+          },
+          {
+            "source": "Characters/Equip/f_chain_gauntlets.TMD",
+            "sha256": "78d4769a5754ed19312c417b00d97ada98447f22b769ae34d527b2e70abcc5ee"
+          },
+          {
+            "source": "Characters/Equip/f_chain_leggings.TMD",
+            "sha256": "6d84a95e6e994435626cf48408976628f3eb936e7650f79d8ee2f9debffb5775"
+          },
+          {
+            "source": "Characters/Equip/f_chain_skirt.TMD",
+            "sha256": "ee96973259ff2e4a0aa935baf3fb4b4bd3e2841a1b329118f07b8917917143b3"
+          },
+          {
+            "source": "Characters/Equip/f_chainmail.TMD",
+            "sha256": "857c9c77db836b329d750e60fba6dfa3aef3d4444877da22eb49adfbdb549e88"
+          },
+          {
+            "source": "Characters/Equip/girl_face_1.dds",
+            "sha256": "812300a98ed9fc003ea6f6b6887ed55813c350960782f49d39475d919dfde39f"
+          },
+          {
+            "source": "Characters/Eye/F_Eye_a_a.dds",
+            "sha256": "86e9884119262635adb47d70c4af1cc0961908e6fac7e933338986741ad615b6"
+          },
+          {
+            "source": "Characters/Girl_face_01.TMD",
+            "sha256": "d2865d95043c86fdefb00f0c2e8fbcd606181d190619c75984a7bf8de8c48773"
+          },
+          {
+            "source": "Characters/Hair/Girl_Hair_A.dds",
+            "sha256": "159519d8e9a24dfd2d0086e9c5ea8484722f0e0204abf99ae189b5ecdfefa53b"
+          },
+          {
+            "source": "Characters/Hair/f_hair_a_a.TMD",
+            "sha256": "d3f2ea042dc7c2365bc0e8b4437d9de6b82de8d250a115128b5a786d49b86eef"
+          },
+          {
+            "source": "Characters/Weapon/kiteshield.TMD",
+            "sha256": "d56f559540b7c4f0caf7e19ae2ee4e3a9a259661ada07d47b11c325ce9e5fc5e"
+          },
+          {
+            "source": "Characters/Weapon/rapier.TMD",
+            "sha256": "522de79cc2ce9240f59ba89b3e96c0ba9f7b2248ff9f8104083d684ffd2b862b"
+          },
+          {
+            "source": "Characters/Weapon/shield_2nd.DDS",
+            "sha256": "6a6dbd50451a94884f0572bd6f9ab207801db56613d3ad83c0fb362658a66d8d"
+          },
+          {
+            "source": "Characters/f_templer.obj",
+            "sha256": "d0647d8f9a5bc85537276cf5bac24ce3ccd96fcaa6be69fc81fc87a5f9d6a529"
+          },
+          {
+            "source": "Characters/female_ani_all.tmd",
+            "sha256": "6bf6f9c6b0c660de0d3642ac4f7a29163a52b9cdb2343ad98fad248f2216dda6"
+          }
+        ]
+      },
+      "previewHiddenMeshes": []
+    },
+    {
+      "id": "Hwarang",
+      "image": "assets/class-hwarang-best.webp",
+      "status": "original_selected_level_fine_equipment",
+      "equipmentLevel": 40,
+      "equipment": [
+        130115,
+        131115,
+        132115,
+        133115,
+        134115,
+        112115
+      ],
+      "imageGender": "female",
+      "source": "class-equipment-audit.json",
+      "selected": [
+        {
+          "id": 130115,
+          "name": "Fine Sallet",
+          "level": 40,
+          "slot": 1,
+          "modifier": {
+            "path": "Characters/Cap/sallet(f).mod",
+            "sha256": "f2632c787629cad935381f85215a55a7bc170698ee6112dd1d109e72ac8b2a1d",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\cap\\sallet.tmd"
+          ],
+          "nativeSha256": "1786357573dcd03e8578557aaf7a8191e3ef6b1bdb03d160578cb08f1813a3d0"
+        },
+        {
+          "id": 131115,
+          "name": "Fine Chain mail",
+          "level": 40,
+          "slot": 4,
+          "modifier": {
+            "path": "Characters/Equip/chainmail(f).mod",
+            "sha256": "93f334eb13d42eaa3518a937a843bd5c13f0b77c826063909bb8e70c0318ced1",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chainmail.tmd"
+          ],
+          "nativeSha256": "246281d5bc2c766f5442f46348aa8f5cdf3c568df47df7419a78d58f57a5f617"
+        },
+        {
+          "id": 132115,
+          "name": "Fine Chain Leggings",
+          "level": 40,
+          "slot": 5,
+          "modifier": {
+            "path": "Characters/Equip/chainleggings(f).mod",
+            "sha256": "6e070f8e5bfd3f1751781f2512353d9c59da731a9893c3889a2850798c1705d1",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_leggings.tmd",
+            "characters\\equip\\f_chain_skirt.tmd"
+          ],
+          "nativeSha256": "787bf2a0e95da1f646609024a874379c923e6e29ee54b0904cd550efee626058"
+        },
+        {
+          "id": 133115,
+          "name": "Fine Chain Gauntlets",
+          "level": 40,
+          "slot": 6,
+          "modifier": {
+            "path": "Characters/Equip/chaingauntlets(f).mod",
+            "sha256": "ddd4b7d6c867c90c21d4ef1cfcd87df3dd03e3ae4f62b8229533586b96a5e45c",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_gauntlets.tmd"
+          ],
+          "nativeSha256": "ad3a845fb279d71aa53332a49aec6ab4dd9263f54d7ecc4b2901ee6c4f98412f"
+        },
+        {
+          "id": 134115,
+          "name": "Fine Chain Boots",
+          "level": 40,
+          "slot": 7,
+          "modifier": {
+            "path": "Characters/Equip/chainboots(f).mod",
+            "sha256": "982ff09ffba173ebcd45d6da5394af7a9705107283d1878a455aa77f3a83f7c7",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_chain_boots.tmd"
+          ],
+          "nativeSha256": "95d47471c9449c46f24141256d3e721243693dfcd3c096d2acf4d4c38bd0598f"
+        },
+        {
+          "id": 112115,
+          "name": "Fine Brutal sword",
+          "level": 40,
+          "slot": 2,
+          "modifier": {
+            "path": "Characters/Weapon/brutalsword(f).mod",
+            "sha256": "f14ca62378e6757ceb227ebadb03cb90a16f761af176ace86511902a3da0372b",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\brutalsword.tmd"
+          ],
+          "nativeSha256": "f0c40de5d8fa6b1119fc25f3704d98b31b7440a67258d6bbef56e9c1585dfd21"
+        }
+      ],
+      "render": {
+        "size": [
+          1024,
+          1024
+        ],
+        "triangles": 2366,
+        "animation": "AA",
+        "pixel_bbox": [
+          92,
+          147,
+          932,
+          877
+        ]
+      },
+      "model": {
+        "id": 910002,
+        "original_name": "Hwarang",
+        "assembly": "Characters/f_hwarang.obj",
+        "require_idle": false,
+        "requested_clips": [
+          "AA"
+        ],
+        "output": "910002.glb",
+        "source_scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "editor_translation_ignored": [
+          3142.07568359375,
+          80.0,
+          4190.44921875
+        ],
+        "vertices": 2280,
+        "triangles": 2366,
+        "clips": [
+          "AA"
+        ],
+        "parts": [
+          "Characters/female_ani_all.tmd",
+          "Characters/Girl_face_01.TMD",
+          "Characters/Hair/f_hair_a_a.TMD",
+          "Characters/Cap/sallet.TMD",
+          "Characters/Equip/f_chainmail.TMD",
+          "Characters/Equip/f_chain_leggings.TMD",
+          "Characters/Equip/f_chain_skirt.TMD",
+          "Characters/Equip/f_chain_gauntlets.TMD",
+          "Characters/Equip/f_chain_boots.TMD",
+          "Characters/Weapon/brutalsword.TMD"
+        ],
+        "manifest": [
+          {
+            "source": "Characters/Cap/cap_7.DDS",
+            "sha256": "c25148f38a524b6688cb2d7560dda80c565c933fd7cdbe84fa9d64495030d151"
+          },
+          {
+            "source": "Characters/Cap/sallet.TMD",
+            "sha256": "f54886aff33dafad1350d64e1a011c5129f7a309e0e720e401810cd9f27dc9f4"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine.dds",
+            "sha256": "3fec09d60b14d7ade13cad8c8d3f2738f3373c4f6edfcc111dca81e90e284bf9"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_boots.dds",
+            "sha256": "f9e530f58e1b56ab518ff3a249bffedbcb11564348fc95fb784d7bfb6e092a96"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_gauntlets.dds",
+            "sha256": "4933314d9f3128ad6cf0e78f30b8a9d3a234f3f50d995b10c71d80c83487f09a"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_leggings.dds",
+            "sha256": "1d7602b1d5c1b1e42bcdccaa929bf142c21137ccbb1b6f7d6fe6e37a3e48f6ef"
+          },
+          {
+            "source": "Characters/Equip/f_brigandine_skirt.dds",
+            "sha256": "f49758bc5f6da832207669ce972a89476658b22d2e6ac8f1ddcfa9721045fc79"
+          },
+          {
+            "source": "Characters/Equip/f_chain_boots.TMD",
+            "sha256": "f1792924e87198d3fc506cfbed3273f0655d3c9b087875e9faefd919fbad862d"
+          },
+          {
+            "source": "Characters/Equip/f_chain_gauntlets.TMD",
+            "sha256": "78d4769a5754ed19312c417b00d97ada98447f22b769ae34d527b2e70abcc5ee"
+          },
+          {
+            "source": "Characters/Equip/f_chain_leggings.TMD",
+            "sha256": "6d84a95e6e994435626cf48408976628f3eb936e7650f79d8ee2f9debffb5775"
+          },
+          {
+            "source": "Characters/Equip/f_chain_skirt.TMD",
+            "sha256": "ee96973259ff2e4a0aa935baf3fb4b4bd3e2841a1b329118f07b8917917143b3"
+          },
+          {
+            "source": "Characters/Equip/f_chainmail.TMD",
+            "sha256": "857c9c77db836b329d750e60fba6dfa3aef3d4444877da22eb49adfbdb549e88"
+          },
+          {
+            "source": "Characters/Equip/girl_face_1.dds",
+            "sha256": "812300a98ed9fc003ea6f6b6887ed55813c350960782f49d39475d919dfde39f"
+          },
+          {
+            "source": "Characters/Eye/F_Eye_a_a.dds",
+            "sha256": "86e9884119262635adb47d70c4af1cc0961908e6fac7e933338986741ad615b6"
+          },
+          {
+            "source": "Characters/Girl_face_01.TMD",
+            "sha256": "d2865d95043c86fdefb00f0c2e8fbcd606181d190619c75984a7bf8de8c48773"
+          },
+          {
+            "source": "Characters/Hair/Girl_Hair_A.dds",
+            "sha256": "159519d8e9a24dfd2d0086e9c5ea8484722f0e0204abf99ae189b5ecdfefa53b"
+          },
+          {
+            "source": "Characters/Hair/f_hair_a_a.TMD",
+            "sha256": "d3f2ea042dc7c2365bc0e8b4437d9de6b82de8d250a115128b5a786d49b86eef"
+          },
+          {
+            "source": "Characters/Weapon/brutalsword.TMD",
+            "sha256": "c333888d8da33ec1e0d29a4794b32d3d4a589559190c97dc66a30ccad06c8ec3"
+          },
+          {
+            "source": "Characters/Weapon/estel_sword1.dds",
+            "sha256": "76c35612fbf0de0a3e5e3137e9a491d0b8acdcacfceca98615d1fd0d8be7b652"
+          },
+          {
+            "source": "Characters/f_hwarang.obj",
+            "sha256": "d0647d8f9a5bc85537276cf5bac24ce3ccd96fcaa6be69fc81fc87a5f9d6a529"
+          },
+          {
+            "source": "Characters/female_ani_all.tmd",
+            "sha256": "6bf6f9c6b0c660de0d3642ac4f7a29163a52b9cdb2343ad98fad248f2216dda6"
+          }
+        ]
+      },
+      "previewHiddenMeshes": []
+    },
+    {
+      "id": "Mage",
+      "image": "assets/class-mage-best.webp",
+      "status": "original_selected_level_fine_equipment",
+      "equipmentLevel": 40,
+      "equipment": [
+        130215,
+        131215,
+        132215,
+        133215,
+        134215,
+        114115
+      ],
+      "imageGender": "female",
+      "source": "class-equipment-audit.json",
+      "selected": [
+        {
+          "id": 130215,
+          "name": "Fine Wizard cap",
+          "level": 40,
+          "slot": 1,
+          "modifier": {
+            "path": "Characters/Cap/wizardcap(f).mod",
+            "sha256": "942e2671e132ffb956cdaedb27885a309dfd0b2bda82e8f14889af07851a80d7",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\cap\\wizardcap.tmd"
+          ],
+          "nativeSha256": "3ff992eea9e1ce1a03a48259dbf683f5623b5900eae584fd6da053d0e8cb34e6"
+        },
+        {
+          "id": 131215,
+          "name": "Fine Hard coat",
+          "level": 40,
+          "slot": 4,
+          "modifier": {
+            "path": "Characters/Equip/hardcoat(f).mod",
+            "sha256": "7cd03466a229d030a80ee10e46a693603234037994ef68eb910766a71db22db6",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardcoat.tmd"
+          ],
+          "nativeSha256": "a7c7984dcab42b55428c5746cf0d4894088186d04c4b10feee3931e151dc80bd"
+        },
+        {
+          "id": 132215,
+          "name": "Fine Hard coat Pants",
+          "level": 40,
+          "slot": 5,
+          "modifier": {
+            "path": "Characters/Equip/hardcoatpants(f).mod",
+            "sha256": "c2fded153db79c3ccc358d5bd58d39e6fe244356ec5f29307024d1affd4f102f",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardcoat_pants.tmd",
+            "characters\\equip\\f_hardcoat_skirt.tmd"
+          ],
+          "nativeSha256": "2f5f58da5e53e5b6df3ab9afa828c491daa53e7525a548d14fa7a51fc27b74a6"
+        },
+        {
+          "id": 133215,
+          "name": "Fine Hard Gloves",
+          "level": 40,
+          "slot": 6,
+          "modifier": {
+            "path": "Characters/Equip/hardgloves(f).mod",
+            "sha256": "f4a9b998c9f9f8e4272f6becb4707f0806006d4471bcbb2f31c1507dab5b6331",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardgloves.tmd"
+          ],
+          "nativeSha256": "5914b87cf940243f21376b1880764f243fef7087598e2561c09d0c5649d8681c"
+        },
+        {
+          "id": 134215,
+          "name": "Fine Long boots",
+          "level": 40,
+          "slot": 7,
+          "modifier": {
+            "path": "Characters/Equip/longboots(f).mod",
+            "sha256": "4e5d6357ad7788f4933026b1cfcaeca88e996300cfd5b2443e0e11fc0367e655",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_longboots.tmd"
+          ],
+          "nativeSha256": "134ccde1ba9ea4e699c195017c2b59339bce5db85aae72e5f3dbf7eeaf174f5e"
+        },
+        {
+          "id": 114115,
+          "name": "Fine Pilgrim staff",
+          "level": 40,
+          "slot": 2,
+          "modifier": {
+            "path": "Characters/Weapon/pilgrimstaff(f).mod",
+            "sha256": "6b94fb217e7b11ab5b374475709986fcae6dfd4662fef3aba259de2d7e0755ff",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\pilgrimstaff.tmd"
+          ],
+          "nativeSha256": "ca3f7bc0a0c0a2257cc9fcd301097ffbed3bea5532d58271d28050e73ed789f1"
+        }
+      ],
+      "render": {
+        "size": [
+          1024,
+          1024
+        ],
+        "triangles": 1462,
+        "animation": "AA",
+        "pixel_bbox": [
+          230,
+          77,
+          791,
+          947
+        ]
+      },
+      "model": {
+        "id": 910003,
+        "original_name": "Mage",
+        "assembly": "Characters/f_mage.obj",
+        "require_idle": false,
+        "requested_clips": [
+          "AA"
+        ],
+        "output": "910003.glb",
+        "source_scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "editor_translation_ignored": [
+          3142.07568359375,
+          80.0,
+          4190.44921875
+        ],
+        "vertices": 1427,
+        "triangles": 1462,
+        "clips": [
+          "AA"
+        ],
+        "parts": [
+          "Characters/female_ani_all.tmd",
+          "Characters/Girl_face_01.TMD",
+          "Characters/Hair/f_hair_a_a.TMD",
+          "Characters/Cap/wizardcap.TMD",
+          "Characters/Equip/f_hardcoat.TMD",
+          "Characters/Equip/f_hardcoat_pants.TMD",
+          "Characters/Equip/f_hardcoat_skirt.TMD",
+          "Characters/Equip/f_hardgloves.TMD",
+          "Characters/Equip/f_longboots.TMD",
+          "Characters/Weapon/pilgrimstaff.TMD"
+        ],
+        "manifest": [
+          {
+            "source": "Characters/Cap/cap_10.DDS",
+            "sha256": "7a833cc78643e1b396fe115f6c8a0832413d552a3e70f9ef993accce130fe8a1"
+          },
+          {
+            "source": "Characters/Cap/item_weapon.dds",
+            "sha256": "47cc0e6562a999e86be5877c547d88911f3533fa043719adf7824bcee331d311"
+          },
+          {
+            "source": "Characters/Cap/wizardcap.TMD",
+            "sha256": "d7c7339a32ca777c12b82ed868d2008bb448c3f3c413e6acbd7b6e9f2a47f345"
+          },
+          {
+            "source": "Characters/Equip/f_Boots_S.DDS",
+            "sha256": "42d92e3c57b1dd515cbefe16491201869e2bb803d8ea4bdebb7ff4e8e0808e51"
+          },
+          {
+            "source": "Characters/Equip/f_Gloves_S.dds",
+            "sha256": "791e4eed88c54622f2fe9cdb20a96164bba88ec2d04e2c6dffdefc6fec99c9f4"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_Pants_S.DDS",
+            "sha256": "ba0ed7a16d41bab9436f60854fc3bd9573516e642c8ac87002db5089f55c79e7"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_S .dds",
+            "sha256": "13695b84e19cb391e18b29b162c441132deb0b5fc047d8e321aa81ce4f4933b8"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_skirt_S.dds",
+            "sha256": "db4195c7bfca7be9e8441e1a3256d3b35bb67925bea16ba73161cf6d8de2d57c"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat.TMD",
+            "sha256": "3be98d6df4b07a3658bdaeadbbb0a7aec3b09830eb8155315af4478d82d9a728"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat_pants.TMD",
+            "sha256": "2ca0dd91aa5844160cc776707cf5d39f8001789a7fef457ed88f45d8cb2b1c52"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat_skirt.TMD",
+            "sha256": "4c27c80356939f378d5d550dd09a926fae994cf0001d873d677f78d1b749b929"
+          },
+          {
+            "source": "Characters/Equip/f_hardgloves.TMD",
+            "sha256": "e73ca3c67533c2f2f0166aa39aba6eaa1516faa5514889f1fcd3f2d2eaf3f393"
+          },
+          {
+            "source": "Characters/Equip/f_longboots.TMD",
+            "sha256": "2745681a6504661ca26a66e6ee97125aa9ab6c720bb58ac47908c2e84bd3bcc1"
+          },
+          {
+            "source": "Characters/Equip/girl_face_1.dds",
+            "sha256": "812300a98ed9fc003ea6f6b6887ed55813c350960782f49d39475d919dfde39f"
+          },
+          {
+            "source": "Characters/Eye/F_Eye_a_a.dds",
+            "sha256": "86e9884119262635adb47d70c4af1cc0961908e6fac7e933338986741ad615b6"
+          },
+          {
+            "source": "Characters/Girl_face_01.TMD",
+            "sha256": "d2865d95043c86fdefb00f0c2e8fbcd606181d190619c75984a7bf8de8c48773"
+          },
+          {
+            "source": "Characters/Hair/Girl_Hair_A.dds",
+            "sha256": "159519d8e9a24dfd2d0086e9c5ea8484722f0e0204abf99ae189b5ecdfefa53b"
+          },
+          {
+            "source": "Characters/Hair/f_hair_a_a.TMD",
+            "sha256": "d3f2ea042dc7c2365bc0e8b4437d9de6b82de8d250a115128b5a786d49b86eef"
+          },
+          {
+            "source": "Characters/Weapon/pilgrimstaff.TMD",
+            "sha256": "0542f4a205544229f96a47363fbe325a5401a508062819869b074a22955ee5cb"
+          },
+          {
+            "source": "Characters/f_mage.obj",
+            "sha256": "d0647d8f9a5bc85537276cf5bac24ce3ccd96fcaa6be69fc81fc87a5f9d6a529"
+          },
+          {
+            "source": "Characters/female_ani_all.tmd",
+            "sha256": "6bf6f9c6b0c660de0d3642ac4f7a29163a52b9cdb2343ad98fad248f2216dda6"
+          }
+        ]
+      },
+      "previewHiddenMeshes": []
+    },
+    {
+      "id": "Cleric",
+      "image": "assets/class-cleric-best.webp",
+      "status": "original_selected_level_fine_equipment",
+      "equipmentLevel": 40,
+      "equipment": [
+        130215,
+        131215,
+        132215,
+        133215,
+        134215,
+        113115,
+        129115
+      ],
+      "imageGender": "female",
+      "source": "class-equipment-audit.json",
+      "selected": [
+        {
+          "id": 130215,
+          "name": "Fine Wizard cap",
+          "level": 40,
+          "slot": 1,
+          "modifier": {
+            "path": "Characters/Cap/wizardcap(f).mod",
+            "sha256": "942e2671e132ffb956cdaedb27885a309dfd0b2bda82e8f14889af07851a80d7",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\cap\\wizardcap.tmd"
+          ],
+          "nativeSha256": "3ff992eea9e1ce1a03a48259dbf683f5623b5900eae584fd6da053d0e8cb34e6"
+        },
+        {
+          "id": 131215,
+          "name": "Fine Hard coat",
+          "level": 40,
+          "slot": 4,
+          "modifier": {
+            "path": "Characters/Equip/hardcoat(f).mod",
+            "sha256": "7cd03466a229d030a80ee10e46a693603234037994ef68eb910766a71db22db6",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardcoat.tmd"
+          ],
+          "nativeSha256": "a7c7984dcab42b55428c5746cf0d4894088186d04c4b10feee3931e151dc80bd"
+        },
+        {
+          "id": 132215,
+          "name": "Fine Hard coat Pants",
+          "level": 40,
+          "slot": 5,
+          "modifier": {
+            "path": "Characters/Equip/hardcoatpants(f).mod",
+            "sha256": "c2fded153db79c3ccc358d5bd58d39e6fe244356ec5f29307024d1affd4f102f",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardcoat_pants.tmd",
+            "characters\\equip\\f_hardcoat_skirt.tmd"
+          ],
+          "nativeSha256": "2f5f58da5e53e5b6df3ab9afa828c491daa53e7525a548d14fa7a51fc27b74a6"
+        },
+        {
+          "id": 133215,
+          "name": "Fine Hard Gloves",
+          "level": 40,
+          "slot": 6,
+          "modifier": {
+            "path": "Characters/Equip/hardgloves(f).mod",
+            "sha256": "f4a9b998c9f9f8e4272f6becb4707f0806006d4471bcbb2f31c1507dab5b6331",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_hardgloves.tmd"
+          ],
+          "nativeSha256": "5914b87cf940243f21376b1880764f243fef7087598e2561c09d0c5649d8681c"
+        },
+        {
+          "id": 134215,
+          "name": "Fine Long boots",
+          "level": 40,
+          "slot": 7,
+          "modifier": {
+            "path": "Characters/Equip/longboots(f).mod",
+            "sha256": "4e5d6357ad7788f4933026b1cfcaeca88e996300cfd5b2443e0e11fc0367e655",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\equip\\f_longboots.tmd"
+          ],
+          "nativeSha256": "134ccde1ba9ea4e699c195017c2b59339bce5db85aae72e5f3dbf7eeaf174f5e"
+        },
+        {
+          "id": 113115,
+          "name": "Fine Wand",
+          "level": 40,
+          "slot": 2,
+          "modifier": {
+            "path": "Characters/Weapon/wand(f).mod",
+            "sha256": "a20203d8e6663b4597a3b4f41968f032a61672465c107d1a455e8829151e2320",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\wand.tmd"
+          ],
+          "nativeSha256": "d59a231a2593f447bb2fd0feba5924643d254b4bfb9397bc20f0c67c027fc2c9"
+        },
+        {
+          "id": 129115,
+          "name": "Fine Kite Shield",
+          "level": 40,
+          "slot": 3,
+          "modifier": {
+            "path": "Characters/Weapon/kiteshield(f).mod",
+            "sha256": "a37d356b4be937ac82d31a133d9832c2cb63823f6de7cb3d6854734793a5c95c",
+            "base": "characters\\female_ani_all.tmd",
+            "trailer": ""
+          },
+          "meshes": [
+            "characters\\weapon\\kiteshield.tmd"
+          ],
+          "nativeSha256": "75d450edd65cd4ad67814ad2484f79b9b5488b72e6bd8e2898212a4e8fca468c"
+        }
+      ],
+      "render": {
+        "size": [
+          1024,
+          1024
+        ],
+        "triangles": 1534,
+        "animation": "AA",
+        "pixel_bbox": [
+          177,
+          77,
+          837,
+          947
+        ]
+      },
+      "model": {
+        "id": 910004,
+        "original_name": "Cleric",
+        "assembly": "Characters/f_cleric.obj",
+        "require_idle": false,
+        "requested_clips": [
+          "AA"
+        ],
+        "output": "910004.glb",
+        "source_scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ],
+        "editor_translation_ignored": [
+          3142.07568359375,
+          80.0,
+          4190.44921875
+        ],
+        "vertices": 1515,
+        "triangles": 1534,
+        "clips": [
+          "AA"
+        ],
+        "parts": [
+          "Characters/female_ani_all.tmd",
+          "Characters/Girl_face_01.TMD",
+          "Characters/Hair/f_hair_a_a.TMD",
+          "Characters/Cap/wizardcap.TMD",
+          "Characters/Equip/f_hardcoat.TMD",
+          "Characters/Equip/f_hardcoat_pants.TMD",
+          "Characters/Equip/f_hardcoat_skirt.TMD",
+          "Characters/Equip/f_hardgloves.TMD",
+          "Characters/Equip/f_longboots.TMD",
+          "Characters/Weapon/wand.TMD",
+          "Characters/Weapon/kiteshield.TMD"
+        ],
+        "manifest": [
+          {
+            "source": "Characters/Cap/cap_10.DDS",
+            "sha256": "7a833cc78643e1b396fe115f6c8a0832413d552a3e70f9ef993accce130fe8a1"
+          },
+          {
+            "source": "Characters/Cap/wizardcap.TMD",
+            "sha256": "d7c7339a32ca777c12b82ed868d2008bb448c3f3c413e6acbd7b6e9f2a47f345"
+          },
+          {
+            "source": "Characters/Equip/f_Boots_S.DDS",
+            "sha256": "42d92e3c57b1dd515cbefe16491201869e2bb803d8ea4bdebb7ff4e8e0808e51"
+          },
+          {
+            "source": "Characters/Equip/f_Gloves_S.dds",
+            "sha256": "791e4eed88c54622f2fe9cdb20a96164bba88ec2d04e2c6dffdefc6fec99c9f4"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_Pants_S.DDS",
+            "sha256": "ba0ed7a16d41bab9436f60854fc3bd9573516e642c8ac87002db5089f55c79e7"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_S .dds",
+            "sha256": "13695b84e19cb391e18b29b162c441132deb0b5fc047d8e321aa81ce4f4933b8"
+          },
+          {
+            "source": "Characters/Equip/f_Hard_robe_skirt_S.dds",
+            "sha256": "db4195c7bfca7be9e8441e1a3256d3b35bb67925bea16ba73161cf6d8de2d57c"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat.TMD",
+            "sha256": "3be98d6df4b07a3658bdaeadbbb0a7aec3b09830eb8155315af4478d82d9a728"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat_pants.TMD",
+            "sha256": "2ca0dd91aa5844160cc776707cf5d39f8001789a7fef457ed88f45d8cb2b1c52"
+          },
+          {
+            "source": "Characters/Equip/f_hardcoat_skirt.TMD",
+            "sha256": "4c27c80356939f378d5d550dd09a926fae994cf0001d873d677f78d1b749b929"
+          },
+          {
+            "source": "Characters/Equip/f_hardgloves.TMD",
+            "sha256": "e73ca3c67533c2f2f0166aa39aba6eaa1516faa5514889f1fcd3f2d2eaf3f393"
+          },
+          {
+            "source": "Characters/Equip/f_longboots.TMD",
+            "sha256": "2745681a6504661ca26a66e6ee97125aa9ab6c720bb58ac47908c2e84bd3bcc1"
+          },
+          {
+            "source": "Characters/Equip/girl_face_1.dds",
+            "sha256": "812300a98ed9fc003ea6f6b6887ed55813c350960782f49d39475d919dfde39f"
+          },
+          {
+            "source": "Characters/Eye/F_Eye_a_a.dds",
+            "sha256": "86e9884119262635adb47d70c4af1cc0961908e6fac7e933338986741ad615b6"
+          },
+          {
+            "source": "Characters/Girl_face_01.TMD",
+            "sha256": "d2865d95043c86fdefb00f0c2e8fbcd606181d190619c75984a7bf8de8c48773"
+          },
+          {
+            "source": "Characters/Hair/Girl_Hair_A.dds",
+            "sha256": "159519d8e9a24dfd2d0086e9c5ea8484722f0e0204abf99ae189b5ecdfefa53b"
+          },
+          {
+            "source": "Characters/Hair/f_hair_a_a.TMD",
+            "sha256": "d3f2ea042dc7c2365bc0e8b4437d9de6b82de8d250a115128b5a786d49b86eef"
+          },
+          {
+            "source": "Characters/Weapon/kiteshield.TMD",
+            "sha256": "d56f559540b7c4f0caf7e19ae2ee4e3a9a259661ada07d47b11c325ce9e5fc5e"
+          },
+          {
+            "source": "Characters/Weapon/shield_2nd.DDS",
+            "sha256": "6a6dbd50451a94884f0572bd6f9ab207801db56613d3ad83c0fb362658a66d8d"
+          },
+          {
+            "source": "Characters/Weapon/wand.TMD",
+            "sha256": "dff71506f5bc1373b62e876b2b7ca6167a7dc122f26d8f16ea351a8ca44f3638"
+          },
+          {
+            "source": "Characters/Weapon/weapon_g.dds",
+            "sha256": "06bdd8dc3a4a64f1726796e1d3f8814daa4c7780c800769f004451a11ac80801"
+          },
+          {
+            "source": "Characters/f_cleric.obj",
+            "sha256": "d0647d8f9a5bc85537276cf5bac24ce3ccd96fcaa6be69fc81fc87a5f9d6a529"
+          },
+          {
+            "source": "Characters/female_ani_all.tmd",
+            "sha256": "6bf6f9c6b0c660de0d3642ac4f7a29163a52b9cdb2343ad98fad248f2216dda6"
+          }
+        ]
+      },
+      "previewHiddenMeshes": []
+    }
+  ],
+  "unavailableClasses": [
+    "Clown",
+    "Sheriff",
+    "Shaman"
+  ]
+}

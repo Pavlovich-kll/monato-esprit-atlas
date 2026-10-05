@@ -1,0 +1,706 @@
+{
+  "date": "2026-10-04",
+  "scope": "original-client",
+  "sources": {
+    "Data/itemAction.iif": "bf002f31343d4f95fefe8e2b21373fef5ef4570411c40a2c6354970863af3991",
+    "Data/action.eat": "65cc5bb66faf0e6e27b38828d29a07631dd17038415e851c2cf727ea73e13e77",
+    "Data/action.act": "7a328edcae55292bd0798ba90f6f28401906a589d2f1b6d5d8ea63a2724f30ce",
+    "Data/iteminfo.iif": "991400166257efd6390ee4eca2ff8b48b74f0f3eb38b763ad74b26ccc7939f66",
+    "Data/Skill/skill.dat": "d5374ba6d6c2ef3cd76b161d1685617f58e2f58b21f631f4010f810d1db15f29",
+    "Data/Skill/skillProperty.dat": "3ec7c3f1c0639ed847e2f25f99451019511e318fc4ab7c5d0539436325137467"
+  },
+  "consumables": [
+    {
+      "id": 50100,
+      "name": "Small Red Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 50,
+        "mp": 0,
+        "event": 864098892,
+        "action": 792812293,
+        "kind": 10,
+        "itemActionOffset": 402,
+        "actionOffset": 5940,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50101,
+      "name": "Medium Red Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 100,
+        "mp": 0,
+        "event": 2385250782,
+        "action": 4086357578,
+        "kind": 10,
+        "itemActionOffset": 513,
+        "actionOffset": 5956,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50102,
+      "name": "Large Red Potion ",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 200,
+        "mp": 0,
+        "event": 2278237442,
+        "action": 2374450262,
+        "kind": 10,
+        "itemActionOffset": 626,
+        "actionOffset": 5972,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50103,
+      "name": "Small Blue Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 50,
+        "event": 1856946903,
+        "action": 4169052822,
+        "kind": 11,
+        "itemActionOffset": 739,
+        "actionOffset": 5988,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50104,
+      "name": "Medium Blue Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 100,
+        "event": 359226970,
+        "action": 646162271,
+        "kind": 11,
+        "itemActionOffset": 852,
+        "actionOffset": 6004,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50105,
+      "name": "Large Blue Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 200,
+        "event": 1482983322,
+        "action": 1119880404,
+        "kind": 11,
+        "itemActionOffset": 967,
+        "actionOffset": 6020,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50106,
+      "name": "Small Yellow Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 50,
+        "mp": 0,
+        "event": 864098892,
+        "action": 792812293,
+        "kind": 10,
+        "itemActionOffset": 1081,
+        "actionOffset": 5940,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50107,
+      "name": "Medium Yellow Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 100,
+        "mp": 0,
+        "event": 2385250782,
+        "action": 4086357578,
+        "kind": 10,
+        "itemActionOffset": 1208,
+        "actionOffset": 5956,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50108,
+      "name": "Large Yellow Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 200,
+        "mp": 0,
+        "event": 2278237442,
+        "action": 2374450262,
+        "kind": 10,
+        "itemActionOffset": 1338,
+        "actionOffset": 5972,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50109,
+      "name": "Great Red Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 300,
+        "mp": 0,
+        "event": 1663271189,
+        "action": 1636907515,
+        "kind": 10,
+        "itemActionOffset": 1467,
+        "actionOffset": 5844,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50110,
+      "name": "Great Blue Potion",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 300,
+        "event": 125288769,
+        "action": 2806105333,
+        "kind": 11,
+        "itemActionOffset": 1579,
+        "actionOffset": 5892,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50111,
+      "name": "Small Red Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 50,
+        "mp": 0,
+        "event": 864098892,
+        "action": 792812293,
+        "kind": 10,
+        "itemActionOffset": 1693,
+        "actionOffset": 5940,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50112,
+      "name": "Small Blue Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 50,
+        "event": 1856946903,
+        "action": 4169052822,
+        "kind": 11,
+        "itemActionOffset": 1804,
+        "actionOffset": 5988,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50113,
+      "name": "Medium Red Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 100,
+        "mp": 0,
+        "event": 2385250782,
+        "action": 4086357578,
+        "kind": 10,
+        "itemActionOffset": 1917,
+        "actionOffset": 5956,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50114,
+      "name": "Medium Blue Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 100,
+        "event": 359226970,
+        "action": 646162271,
+        "kind": 11,
+        "itemActionOffset": 2030,
+        "actionOffset": 6004,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50115,
+      "name": "Large Red Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 200,
+        "mp": 0,
+        "event": 2278237442,
+        "action": 2374450262,
+        "kind": 10,
+        "itemActionOffset": 2145,
+        "actionOffset": 5972,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50116,
+      "name": "Large Blue Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 200,
+        "event": 1482983322,
+        "action": 1119880404,
+        "kind": 11,
+        "itemActionOffset": 2257,
+        "actionOffset": 6020,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50117,
+      "name": "Great Red Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 300,
+        "mp": 0,
+        "event": 1663271189,
+        "action": 1636907515,
+        "kind": 10,
+        "itemActionOffset": 2371,
+        "actionOffset": 5844,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50118,
+      "name": "Great Blue Elixir",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 300,
+        "event": 125288769,
+        "action": 2806105333,
+        "kind": 11,
+        "itemActionOffset": 2483,
+        "actionOffset": 5892,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50301,
+      "name": "Apple Juice",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 500,
+        "mp": 0,
+        "event": 1753265476,
+        "action": 780612605,
+        "kind": 10,
+        "itemActionOffset": 2698,
+        "actionOffset": 5860,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    },
+    {
+      "id": 50303,
+      "name": "Grape Juice",
+      "recovery": {
+        "status": "confirmed",
+        "hp": 0,
+        "mp": 500,
+        "event": 3692679036,
+        "action": 2285628133,
+        "kind": 11,
+        "itemActionOffset": 2907,
+        "actionOffset": 5908,
+        "source": "Data/itemAction.iif → Data/action.eat → Data/action.act"
+      }
+    }
+  ],
+  "unresolved": [
+    54019
+  ],
+  "birthBonuses": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Aquarius Guard",
+        "ru": "Покровительство Водолея"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Максимальная мана · MP",
+          "en": "Maximum mana · MP"
+        },
+        "tone": "magic",
+        "property": 2000,
+        "propertyDescription": "Increase in maximum MP level (%)",
+        "propertyOffset": 14922,
+        "recordOffset": 804,
+        "recordSha256": "1331434df7765be126276f78dd4835510d161ba6c012f0db2bd7e249e5e72450",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Pisces Guard",
+        "ru": "Покровительство Рыб"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Магический урон · мин./макс.",
+          "en": "Magic damage · min./max."
+        },
+        "tone": "magic",
+        "property": 2001,
+        "propertyDescription": "Increase in minimum and maximum level for magic damage level (%)",
+        "propertyOffset": 15008,
+        "recordOffset": 3762,
+        "recordSha256": "424b92acff8fab517afcda8995be0ed3d15a222f31b246400e8f277a0acbcb45",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "en": "Aires Guard",
+        "ru": "Покровительство Овна"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Магическая защита",
+          "en": "Magic defense"
+        },
+        "tone": "magic",
+        "property": 2002,
+        "propertyDescription": "Increase in magic defense level (%)",
+        "propertyOffset": 15126,
+        "recordOffset": 6720,
+        "recordSha256": "fea2e25c18bf5a6157b604a1b451101ad2f891f0ad5732cd9cffe17ff02e92e9",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "en": "Taurus Guard",
+        "ru": "Покровительство Тельца"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Максимальное здоровье · HP",
+          "en": "Maximum health · HP"
+        },
+        "tone": "health",
+        "property": 2003,
+        "propertyDescription": "Increase in user's maximum HP level (%)",
+        "propertyOffset": 15215,
+        "recordOffset": 9678,
+        "recordSha256": "5c3c22ee6096a589942b1ad7aab898250850145e5a1906b663bb03128aa2ee44",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Gemini Guard",
+        "ru": "Покровительство Близнецов"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Показатель уклонения",
+          "en": "Evasion rating"
+        },
+        "tone": "primary",
+        "property": 2004,
+        "propertyDescription": "Increase in user's evasion% level (%)",
+        "propertyOffset": 15308,
+        "recordOffset": 12636,
+        "recordSha256": "1c2edbdc4f0939d61fbd9ad85507261d1557a62499b9a79ca72f1254dcc2de41",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "en": "Cancer Guard",
+        "ru": "Покровительство Рака"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Физическая защита",
+          "en": "Physical defense"
+        },
+        "tone": "physical",
+        "property": 2005,
+        "propertyDescription": "Increase in defense level (%)",
+        "propertyOffset": 15399,
+        "recordOffset": 15594,
+        "recordSha256": "33cd53ea5880bc5662beb21c34a0e4f1bb0faf483961af7f1c4ddba2b61f50e5",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "en": "Leo Guard",
+        "ru": "Покровительство Льва"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Физический урон · мин./макс.",
+          "en": "Physical damage · min./max."
+        },
+        "tone": "physical",
+        "property": 2006,
+        "propertyDescription": "Increase in short range maximum, and minimum level (%)",
+        "propertyOffset": 15482,
+        "recordOffset": 18552,
+        "recordSha256": "461d0cf3c184277baeec05d4cfe2cea589a261e4e38b284d43230af4890cc8de",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "en": "Virgo Guard",
+        "ru": "Покровительство Девы"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Показатель точности",
+          "en": "Hit rating"
+        },
+        "tone": "primary",
+        "property": 2007,
+        "propertyDescription": "Increase in accuracy % level (%)",
+        "propertyOffset": 15590,
+        "recordOffset": 21510,
+        "recordSha256": "0116689adb41278fdf374c4c0fde5c64925abaea2a0f54baca380ab7087371d5",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "en": "Libra Guard",
+        "ru": "Покровительство Весов"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Крит. магических умений",
+          "en": "Magic skill critical rate"
+        },
+        "tone": "magic",
+        "property": 2008,
+        "propertyDescription": "Increase in magic skill critical level (%)",
+        "propertyOffset": 15676,
+        "recordOffset": 24468,
+        "recordSha256": "867ba57935ebbc3d3a7cc540324a6e68ea1be28cfe0e4727cde76bc2fb6b606f",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "en": "Scorpio Guard",
+        "ru": "Покровительство Скорпиона"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Крит. обычных атак",
+          "en": "Normal attack critical rate"
+        },
+        "tone": "physical",
+        "property": 2009,
+        "propertyDescription": "Increase in critical level (%)",
+        "propertyOffset": 15772,
+        "recordOffset": 27426,
+        "recordSha256": "27e55080212f80a012a23a8bfda3bdadccb3430f3ad6889c34c2259ca9731b61",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "en": "Sagittarius Guard",
+        "ru": "Покровительство Стрельца"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Крит. физических умений",
+          "en": "Physical skill critical rate"
+        },
+        "tone": "physical",
+        "property": 2010,
+        "propertyDescription": "Increase in physical skill critical level (%)",
+        "propertyOffset": 15856,
+        "recordOffset": 30384,
+        "recordSha256": "6666e3ca35dbba9ce11c7df3bc5cb6735f974d138037555ac0906d6199f77014",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "en": "Capricorn Guard",
+        "ru": "Покровительство Козерога"
+      },
+      "birth": {
+        "group": "sign",
+        "percent": 10,
+        "attribute": {
+          "ru": "Показатель блока",
+          "en": "Block rating"
+        },
+        "tone": "physical",
+        "property": 2011,
+        "propertyDescription": "Increase in block % level (%)",
+        "propertyOffset": 15955,
+        "recordOffset": 33342,
+        "recordSha256": "4a90cf09d1aa2d6064bc1df54420493f24c62c70b9dd9b9eced3145ab26dfac2",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 500,
+      "name": {
+        "en": "Spring Angel",
+        "ru": "Ангел Весны"
+      },
+      "birth": {
+        "group": "season",
+        "percent": 5,
+        "attribute": {
+          "ru": "Магическая защита",
+          "en": "Magic defense"
+        },
+        "tone": "magic",
+        "property": 2002,
+        "propertyDescription": "Increase in magic defense level (%)",
+        "propertyOffset": 15126,
+        "recordOffset": 36300,
+        "recordSha256": "880aef815cb1f3290d066eb48ca5c883db506697b57a173b28bc9aaf98109ed0",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 501,
+      "name": {
+        "en": "Summer Angel",
+        "ru": "Ангел Лета"
+      },
+      "birth": {
+        "group": "season",
+        "percent": 5,
+        "attribute": {
+          "ru": "Физический урон · мин./макс.",
+          "en": "Physical damage · min./max."
+        },
+        "tone": "physical",
+        "property": 2006,
+        "propertyDescription": "Increase in short range maximum, and minimum level (%)",
+        "propertyOffset": 15482,
+        "recordOffset": 39258,
+        "recordSha256": "c00c9211a8769ddbd2e46c03f542cc22cc5d4353eeba03581bdbb74570dbb211",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 502,
+      "name": {
+        "en": "Autumn Angel",
+        "ru": "Ангел Осени"
+      },
+      "birth": {
+        "group": "season",
+        "percent": 5,
+        "attribute": {
+          "ru": "Магический урон · мин./макс.",
+          "en": "Magic damage · min./max."
+        },
+        "tone": "magic",
+        "property": 2001,
+        "propertyDescription": "Increase in minimum and maximum level for magic damage level (%)",
+        "propertyOffset": 15008,
+        "recordOffset": 42216,
+        "recordSha256": "f6fe08f657a21a549d77f8fc9e5bc583073a63b77da3a6c02d9f63a32f9c0858",
+        "rank": 1,
+        "increment": 0
+      }
+    },
+    {
+      "id": 503,
+      "name": {
+        "en": "Winter Angel",
+        "ru": "Ангел Зимы"
+      },
+      "birth": {
+        "group": "season",
+        "percent": 5,
+        "attribute": {
+          "ru": "Физическая защита",
+          "en": "Physical defense"
+        },
+        "tone": "physical",
+        "property": 2005,
+        "propertyDescription": "Increase in defense level (%)",
+        "propertyOffset": 15399,
+        "recordOffset": 45174,
+        "recordSha256": "7a5d8c74551cdd34147a7d2a33711070a0e8bd3253fb07d139b7c425e148ea67",
+        "rank": 1,
+        "increment": 0
+      }
+    }
+  ],
+  "limitations": {
+    "birthActivation": "Selection, activation, stacking and final probability formulas are not derived from these table records.",
+    "percent": "Percent is the source parameter; it does not establish a final chance or percentage-point increase."
+  }
+}
