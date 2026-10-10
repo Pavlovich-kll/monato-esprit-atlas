@@ -29,7 +29,7 @@ function equipmentFilteredItems(){
   return true;
  });
 }
-function equipmentItemsHTML(records){return paginate(records,a=>`<div class="loot-grid item-catalog${category==='scrolls'?' scroll-catalog':''}">${a.map(x=>itemHTML(x)).join('')}</div>`,48)}
+function equipmentItemsHTML(records){if(category==='monster-scrolls'){records=records.slice().sort((a,b)=>{const group=x=>{const p=scrollProfiles[x.id];return p?.kind==='variant'?Math.min(x.id,p.counterpart):x.id};return group(a)-group(b)||a.id-b.id})}return paginate(records,a=>`<div class="loot-grid item-catalog${['scrolls','monster-scrolls'].includes(category)?' scroll-catalog':''}">${a.map(x=>itemHTML(x)).join('')}</div>`,48)}
 function equipmentFilterHTML(){
  if(!equipmentFilterEnabled())return '';
  const option=(value,label,current)=>`<option value="${value}"${value===current?' selected':''}>${esc(label)}</option>`;

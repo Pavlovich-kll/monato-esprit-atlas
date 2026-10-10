@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-10",
+  "client": "1.0.15.03",
+  "sources": [
+    {
+      "path": "monato-esprit-local\\fixtures\\isildra\\enchant_rules_source.json",
+      "sha256": "65599ea02670e0ed443f8338c7422e0e709934b396e2d942e1c2dfb1b84c3824"
+    },
+    {
+      "path": "monato-esprit-local\\diagnostics\\item-upgrade-20261002\\upgrade-options.json",
+      "sha256": "3b313fbb92f10e8ab57d88a701b90fcd6d0e8cd5e23dc68f1fc542b0f2b73762"
+    },
+    {
+      "path": "monato-esprit-local\\diagnostics\\item-upgrade-20261002\\resources\\ItemEnchantTable.iif",
+      "sha256": "db5208286c8d7247ba41d54b7e2ecc465fb7dd9626435724c44ce558e7fda2d3"
+    },
+    {
+      "path": "monato-esprit-local\\diagnostics\\item-upgrade-20261002\\resources\\ItemUpGrade.iif",
+      "sha256": "b2b5a686f86dd3ec06d08d0ccf6267ac06e9e8f2cdfed504d62449ab92980613"
+    },
+    {
+      "path": "site/catalog.json (atlas, before this metadata update)",
+      "sha256": "2059827a6985e8291bde84ff5c068e024f389b8f0093839129e3cf4cef1ff883"
+    }
+  ],
+  "counts": {
+    "scrolls": 52,
+    "fromMonsters": 42,
+    "fromBosses": 10,
+    "sameNamePairs": 1,
+    "damageAnalogues": 3
+  },
+  "pairs": [
+    {
+      "physical": 70034,
+      "magic": 70047,
+      "kind": "variant",
+      "basis": "Exact source stat mirror: STR/INT, DEX/WIS, physical/magic damage; same equipment slot. Relation inferred for navigation, not a separate source-table field."
+    },
+    {
+      "physical": 70031,
+      "magic": 70026,
+      "kind": "analogue",
+      "basis": "Exact source stat mirror: STR/INT, DEX/WIS, physical/magic damage; same equipment slot. Relation inferred for navigation, not a separate source-table field."
+    },
+    {
+      "physical": 70044,
+      "magic": 70043,
+      "kind": "analogue",
+      "basis": "Exact source stat mirror: STR/INT, DEX/WIS, physical/magic damage; same equipment slot. Relation inferred for navigation, not a separate source-table field."
+    },
+    {
+      "physical": 70049,
+      "magic": 70050,
+      "kind": "analogue",
+      "basis": "Exact source stat mirror: STR/INT, DEX/WIS, physical/magic damage; same equipment slot. Relation inferred for navigation, not a separate source-table field."
+    }
+  ],
+  "profiles": {
+    "70000": {
+      "monsterIds": [
+        10007
+      ],
+      "boss": false
+    },
+    "70001": {
+      "monsterIds": [
+        10008
+      ],
+      "boss": false
+    },
+    "70002": {
+      "monsterIds": [
+        10009
+      ],
+      "boss": false
+    },
+    "70003": {
+      "monsterIds": [
+        10010
+      ],
+      "boss": false
+    },
+    "70004": {
+      "monsterIds": [
+        10011
+      ],
+      "boss": false
+    },
+    "70005": {
+      "monsterIds": [
+        10012
+      ],
+      "boss": false
+    },
+    "70006": {
+      "monsterIds": [
+        10013
+      ],
+      "boss": false
+    },
+    "70007": {
+      "monsterIds": [
+        10015
+      ],
+      "boss": false
+    },
+    "70008": {
+      "monsterIds": [
+        10016
+      ],
+      "boss": false
+    },
+    "70009": {
+      "monsterIds": [
+        10017
+      ],
+      "boss": false
+    },
+    "70010": {
+      "monsterIds": [
+        10019
+      ],
+      "boss": false
+    },
+    "70011": {
+      "monsterIds": [
+        10020
+      ],
+      "boss": false
+    },
+    "70012": {
+      "monsterIds": [
+        10021
+      ],
+      "boss": false
+    },
+    "70013": {
+      "monsterIds": [
+        10022
+      ],
+      "boss": false
+    },
+    "70014": {
+      "monsterIds": [
+        10023
+      ],
+      "boss": false
+    },
+    "70015": {
+      "monsterIds": [
+        10025
+      ],
+      "boss": false
+    },
+    "70016": {
+      "monsterIds": [
+        10027
+      ],
+      "boss": false
+    },
+    "70017": {
+      "monsterIds": [
+        10029
+      ],
+      "boss": false
+    },
+    "70018": {
+      "monsterIds": [
+        10030
+      ],
+      "boss": false
+    },
+    "70019": {
+      "monsterIds": [
+        10031
+      ],
+      "boss": false
+    },
+    "70020": {
+      "monsterIds": [
+        10032
+      ],
+      "boss": false
+    },
+    "70021": {
+      "monsterIds": [
+        10034
+      ],
+      "boss": false
+    },
+    "70022": {
+      "monsterIds": [
+        10035
+      ],
+      "boss": false
+    },
+    "70023": {
+      "monsterIds": [
+        10036
+      ],
+      "boss": false
+    },
+    "70024": {
+      "monsterIds": [
+        10038
+      ],
+      "boss": false
+    },
+    "70025": {
+      "monsterIds": [
+        10040
+      ],
+      "boss": false
+    },
+    "70026": {
+      "monsterIds": [
+        10041
+      ],
+      "boss": false,
+      "tone": "magic",
+      "counterpart": 70031,
+      "kind": "analogue"
+    },
+    "70027": {
+      "monsterIds": [
+        10042
+      ],
+      "boss": false
+    },
+    "70028": {
+      "monsterIds": [
+        10044
+      ],
+      "boss": false
+    },
+    "70029": {
+      "monsterIds": [
+        10045
+      ],
+      "boss": false
+    },
+    "70030": {
+      "monsterIds": [
+        10046
+      ],
+      "boss": false
+    },
+    "70031": {
+      "monsterIds": [
+        10047
+      ],
+      "boss": false,
+      "tone": "physical",
+      "counterpart": 70026,
+      "kind": "analogue"
+    },
+    "70032": {
+      "monsterIds": [
+        10049
+      ],
+      "boss": false
+    },
+    "70033": {
+      "monsterIds": [
+        10050
+      ],
+      "boss": false
+    },
+    "70034": {
+      "monsterIds": [
+        30000
+      ],
+      "boss": true,
+      "tone": "physical",
+      "counterpart": 70047,
+      "kind": "variant"
+    },
+    "70035": {
+      "monsterIds": [
+        20000
+      ],
+      "boss": true
+    },
+    "70036": {
+      "monsterIds": [
+        20001
+      ],
+      "boss": true
+    },
+    "70037": {
+      "monsterIds": [
+        20002
+      ],
+      "boss": true
+    },
+    "70038": {
+      "monsterIds": [
+        20003
+      ],
+      "boss": true
+    },
+    "70039": {
+      "monsterIds": [
+        10051
+      ],
+      "boss": false
+    },
+    "70040": {
+      "monsterIds": [
+        10053
+      ],
+      "boss": false
+    },
+    "70041": {
+      "monsterIds": [
+        10054
+      ],
+      "boss": false
+    },
+    "70042": {
+      "monsterIds": [
+        10056
+      ],
+      "boss": false
+    },
+    "70043": {
+      "monsterIds": [
+        10058
+      ],
+      "boss": false,
+      "tone": "magic",
+      "counterpart": 70044,
+      "kind": "analogue"
+    },
+    "70044": {
+      "monsterIds": [
+        10060
+      ],
+      "boss": false,
+      "tone": "physical",
+      "counterpart": 70043,
+      "kind": "analogue"
+    },
+    "70045": {
+      "monsterIds": [
+        10061
+      ],
+      "boss": false
+    },
+    "70046": {
+      "monsterIds": [
+        10062
+      ],
+      "boss": false
+    },
+    "70047": {
+      "monsterIds": [
+        30000
+      ],
+      "boss": true,
+      "tone": "magic",
+      "counterpart": 70034,
+      "kind": "variant"
+    },
+    "70048": {
+      "monsterIds": [
+        20004
+      ],
+      "boss": true
+    },
+    "70049": {
+      "monsterIds": [
+        20005
+      ],
+      "boss": true,
+      "tone": "physical",
+      "counterpart": 70050,
+      "kind": "analogue"
+    },
+    "70050": {
+      "monsterIds": [
+        20006
+      ],
+      "boss": true,
+      "tone": "magic",
+      "counterpart": 70049,
+      "kind": "analogue"
+    },
+    "70051": {
+      "monsterIds": [
+        30001
+      ],
+      "boss": true
+    }
+  },
+  "validation": "All 52 rule IDs, option IDs, target slots and complete stat arrays match extracted original tables. Loot associations use exact IDs in GOP/ItemDropTable catalog; no drop probabilities inferred. No stat values changed. Unresolved fields remain unresolved."
+}

@@ -1,7 +1,7 @@
 process.chdir(require('path').resolve(__dirname,'..'));
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const context=vm.createContext({window:{},localStorage:{getItem:()=>null},document:{addEventListener:()=>{}},wingCanonicalId:id=>id,potionAttributes:()=>'',wingProfile:()=>'',recoverySummary:()=>''});
-for(const file of ['data.js','attributes.js','item-stats.js','equipment-filters.js'])vm.runInContext(fs.readFileSync('site/'+file,'utf8'),context);
+for(const file of ['data.js','attributes.js','scroll-variants.js','item-stats.js','equipment-filters.js'])vm.runInContext(fs.readFileSync('site/'+file,'utf8'),context);
 const app=fs.readFileSync('site/app.js','utf8');vm.runInContext(app.slice(0,app.indexOf('const mechanics=')),context);
 for(const line of app.split('\n'))if(line.startsWith('function itemHTML(')||line.startsWith('function itemImages(')||line.startsWith('function paginate(')||line.startsWith('function filterChips('))vm.runInContext(line,context);
 const source=JSON.parse(fs.readFileSync('site/catalog.json','utf8')),audit=JSON.parse(fs.readFileSync('site/equipment-filter-audit.json','utf8'));let checks=0;
@@ -17,7 +17,7 @@ set('accessories',{type:'slot:17'});check(rows().length===11);set('wings',{type:
 set('weapons',{classId:'7',maxLevel:'20'});check(rows().length>0);check(rows().every(x=>x.equipment.minLevel<=20&&(x.equipment.classMask&64)));
 set('all',{minLevel:'20',maxLevel:'20'});check(rows().length>0);check(rows().every(x=>x.equipment.minLevel===20));
 for(const f of [{minLevel:'21',maxLevel:'20'},{minLevel:'-1'},{maxLevel:'41'},{minLevel:'1.5'}]){set('all',f);check(rows().length===0);check(vm.runInContext('equipmentFilterIssue()',context).length>0);}
-set('scrolls',{classId:'7',maxLevel:'1',type:'weapon:59'});check(rows().length===168);check(vm.runInContext('equipmentFilterHTML()',context)==='');
+set('scrolls',{classId:'7',maxLevel:'1',type:'weapon:59'});check(rows().length===116);check(vm.runInContext('equipmentFilterHTML()',context)==='');
 set('potions',{classId:'1',minLevel:'40'});check(rows().length>0);check(rows().every(x=>x.recovery));
 for(const language of ['ru','en']){vm.runInContext(`lang=${JSON.stringify(language)}`,context);set('weapons',{type:'weapon:59',maxLevel:'20'});const html=vm.runInContext('equipmentFilterHTML()',context);check(html.includes('equipment-class'));check(html.includes('weapon:59'));check(!html.includes('slot:6'));check(html.includes('value="20"'));}
 check(source.items.every(x=>!x.equipment||audit.nativeTypes[x.id]!==undefined));

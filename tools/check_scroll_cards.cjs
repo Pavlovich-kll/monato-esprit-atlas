@@ -1,7 +1,7 @@
 process.chdir(require('path').resolve(__dirname,'..'));
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const c=vm.createContext({window:{},localStorage:{getItem:()=>null},document:{},wingCanonicalId:id=>id,potionAttributes:()=>'',wingProfile:()=>'',recoverySummary:()=>''});
-for(const f of ['data.js','attributes.js','item-stats.js'])vm.runInContext(fs.readFileSync('site/'+f,'utf8'),c);
+for(const f of ['data.js','attributes.js','scroll-variants.js','item-stats.js'])vm.runInContext(fs.readFileSync('site/'+f,'utf8'),c);
 const app=fs.readFileSync('site/app.js','utf8');vm.runInContext(app.slice(0,app.indexOf('const mechanics=')),c);for(const line of app.split('\n'))if(line.startsWith('function itemHTML(')||line.startsWith('function itemImages('))vm.runInContext(line,c);
 const data=JSON.parse(fs.readFileSync('site/catalog.json','utf8')),scrolls=data.items.filter(x=>x.enchantment);assert.equal(scrolls.length,52);
 let count=0;

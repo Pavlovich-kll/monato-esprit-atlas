@@ -18,3 +18,11 @@
 .item-catalog.scroll-catalog{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 @media(max-width:650px){.item-catalog.scroll-catalog{grid-template-columns:1fr}.loot-grid>.scroll-card{grid-column:1/-1}.item.scroll-card{padding:12px}}
 @media(prefers-reduced-motion:reduce){.item.scroll-card{transition:none}}
+
+.scroll-card .scroll-card-meta{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;margin-top:10px}
+.scroll-card .scroll-card-target{margin-top:0}
+.scroll-variant{font-size:.6875rem;font-weight:650;color:var(--attribute-color,#d6e1f2);border:1px solid currentColor;border-radius:4px;padding:2px 5px;line-height:1.35}
+.scroll-origin{font-size:.6875rem;color:#f3cf85}
+.scroll-card .scroll-counterpart{margin-top:8px;font-size:.6875rem;line-height:1.45;color:var(--muted);overflow-wrap:anywhere}
+
+.scroll-card .attribute-range small{display:inline;font-size:.6875rem}
