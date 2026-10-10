@@ -11,8 +11,8 @@ for(const language of ['ru','en']){
  assert(html.includes('scroll-card')&&html.includes(`data-id="${x.id}"`)&&html.includes('type="button"'));
  assert(html.includes('×2'));assert(html.includes(language==='ru'?'На выбор':'Reward choice'));
  assert(html.includes(vm.runInContext('esc(equipmentSlot(testItem.enchantment.slot))',c)));
- assert.equal((html.match(/class="scroll-effect"/g)||[]).length,entries.length);
- for(const entry of entries){assert(html.includes(entry.label));assert(html.includes(entry.value));if(entry.note)assert(html.includes(entry.note));}
+ assert.equal((html.match(/class="scroll-effect(?: [^"]*)?"/g)||[]).length,entries.length);
+ for(const entry of entries){assert(html.includes(`scroll-effect attribute-${entry.tone}`));assert(html.includes(entry.label));assert(html.includes(entry.value));if(entry.note)assert(html.includes(entry.note));}
  assert(!/Успех|Плата|Стоимость|Success|Cost|Fee/.test(html));
  const detail=vm.runInContext('itemCharacteristics(testItem)',c);assert(!/Успех ·|Стоимость ·|Success ·|Cost ·/.test(detail));count++;
  }

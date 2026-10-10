@@ -18,7 +18,7 @@ function itemsPage(){const options=[['all','Все','All'],['weapons','Оруж�
 // Shared list rendering: exact original enchantment effects, no success or fee labels.
 function enchantmentCardHTML(x,countValue,rewardKind){
  const entries=attributeEntries(x.enchantment.stats,true);
- const effects=entries.length?entries.map(v=>`<span class="scroll-effect"><span class="scroll-effect-label">${v.label}${v.note?`<small>${esc(v.note)}</small>`:''}</span><strong class="scroll-effect-value">${v.value}</strong></span>`).join(''):`<span class="scroll-unresolved">${t('Эффект пока не расшифрован','Effect not yet decoded')}</span>`;
+ const effects=entries.length?entries.map(v=>`<span class="scroll-effect attribute-${v.tone}"><span class="scroll-effect-label">${v.label}${v.note?`<small>${esc(v.note)}</small>`:''}</span><strong class="scroll-effect-value">${v.value}</strong></span>`).join(''):`<span class="scroll-unresolved">${t('Эффект пока не расшифрован','Effect not yet decoded')}</span>`;
  const original=lang==='ru'&&x.name.en!==name(x)?`<small class="scroll-original">${esc(x.name.en)}</small>`:'';
  return `<button type="button" class="item scroll-card" data-detail="item" data-id="${x.id}"><span class="scroll-card-head">${itemImages(x)}<span class="scroll-card-identity"><span class="scroll-card-name">${esc(name(x))}${countValue?` ×${countValue}`:''}</span>${original}</span></span><span class="scroll-card-target">${esc(equipmentSlot(x.enchantment.slot))}</span><span class="scroll-card-effects">${effects}</span>${rewardKind!==undefined?`<small class="scroll-card-reward">${t(rewardKind?'На выбор':'Гарантированная награда',rewardKind?'Reward choice':'Guaranteed reward')}</small>`:''}</button>`;
 }
