@@ -1,0 +1,50 @@
+'use strict';
+const EQUIPMENT_NATIVE_TYPES=Object.freeze({"1001":109,"5008":12,"110000":52,"110001":52,"111000":53,"111002":53,"111003":53,"111004":53,"111005":53,"111100":53,"111101":53,"111102":53,"111103":53,"111104":53,"111105":53,"111110":53,"111111":53,"111112":53,"111113":53,"111114":53,"111115":53,"111400":53,"112000":54,"112002":54,"112003":54,"112004":54,"112005":54,"112100":54,"112101":54,"112102":54,"112103":54,"112104":54,"112105":54,"112110":54,"112111":54,"112112":54,"112113":54,"112114":54,"112115":54,"112400":54,"113000":60,"113002":60,"113003":60,"113004":60,"113005":60,"113100":60,"113101":60,"113102":60,"113103":60,"113104":60,"113105":60,"113110":60,"113111":60,"113112":60,"113113":60,"113114":60,"113115":60,"113400":60,"114000":59,"114002":59,"114003":59,"114004":59,"114005":59,"114100":59,"114101":59,"114102":59,"114103":59,"114104":59,"114105":59,"114110":59,"114111":59,"114112":59,"114113":59,"114114":59,"114115":59,"114400":59,"129000":7,"129001":7,"129100":7,"129101":7,"129102":7,"129103":7,"129104":7,"129105":7,"129110":7,"129111":7,"129112":7,"129113":7,"129114":7,"129115":7,"129400":7,"129401":7,"130000":2,"130001":2,"130100":2,"130101":2,"130102":2,"130103":2,"130104":4,"130105":4,"130110":4,"130111":4,"130112":4,"130113":4,"130114":4,"130115":4,"130200":2,"130201":2,"130202":2,"130203":2,"130204":2,"130205":2,"130210":2,"130211":2,"130212":2,"130213":2,"130214":2,"130215":2,"130400":4,"130401":2,"131000":10,"131001":10,"131002":10,"131004":10,"131005":10,"131006":10,"131007":10,"131010":10,"131012":10,"131013":10,"131014":10,"131015":10,"131100":10,"131101":10,"131102":10,"131103":10,"131104":10,"131105":10,"131110":10,"131111":10,"131112":10,"131113":10,"131114":10,"131115":10,"131200":10,"131201":10,"131202":10,"131203":10,"131204":10,"131205":10,"131210":10,"131211":10,"131212":10,"131213":10,"131214":10,"131215":10,"131400":10,"131401":10,"132000":11,"132001":11,"132002":11,"132004":11,"132005":11,"132006":11,"132007":11,"132010":11,"132012":11,"132013":11,"132014":11,"132015":11,"132100":11,"132101":11,"132102":11,"132103":11,"132104":11,"132105":11,"132110":11,"132111":11,"132112":11,"132113":11,"132114":11,"132115":11,"132200":11,"132201":11,"132202":11,"132203":11,"132204":11,"132205":11,"132210":11,"132211":11,"132212":11,"132213":11,"132214":11,"132215":11,"132400":11,"132401":11,"133000":8,"133001":8,"133002":8,"133004":8,"133005":8,"133006":8,"133007":8,"133010":8,"133012":8,"133013":8,"133014":8,"133015":8,"133100":8,"133101":8,"133102":8,"133103":8,"133104":8,"133105":8,"133110":8,"133111":8,"133112":8,"133113":8,"133114":8,"133115":8,"133200":8,"133201":8,"133202":8,"133203":8,"133204":8,"133205":8,"133210":8,"133211":8,"133212":8,"133213":8,"133214":8,"133215":8,"133400":8,"133401":8,"133402":8,"133403":8,"134000":9,"134001":9,"134002":9,"134004":9,"134005":9,"134006":9,"134007":9,"134010":9,"134012":9,"134013":9,"134014":9,"134015":9,"134100":9,"134101":9,"134102":9,"134103":9,"134104":9,"134105":9,"134110":9,"134111":9,"134112":9,"134113":9,"134114":9,"134115":9,"134200":9,"134201":9,"134202":9,"134203":9,"134204":9,"134205":9,"134210":9,"134211":9,"134212":9,"134213":9,"134214":9,"134215":9,"134400":9,"134401":9,"135000":12,"135001":12,"135002":12,"135003":12,"135004":12,"135005":12,"135006":12,"135007":12,"135008":12,"135009":12,"135010":12,"136005":13,"136006":13,"136007":13,"136010":13,"136011":13,"137005":14,"137006":14,"137007":14,"137008":14,"137009":14,"137010":14,"137011":14,"137014":14,"138004":15,"138005":15,"138006":15,"138007":15,"138010":15,"138011":15,"138014":15,"138015":15,"138016":15,"138017":15,"138018":15});
+const equipmentFilters={classId:'',minLevel:'',maxLevel:'',type:''};
+const equipmentClassNames=[['Новичок','Novice'],['Храмовник','Templer'],['Воин Хваран','Hwarang'],['Клоун','Clown'],['Шериф','Sheriff'],['Шаман','Shaman'],['Маг','Mage'],['Целитель','Cleric']];
+const equipmentTypeDefinitions=[
+ ['slot:1','Головные уборы','Headwear','clothing'],['slot:4','Верхняя одежда','Upper body','clothing'],['slot:5','Нижняя одежда','Lower body','clothing'],['slot:6','Перчатки','Gloves','clothing'],['slot:7','Обувь','Footwear','clothing'],
+ ['weapon:52','Ножи','Knives','weapons'],['weapon:53','Мечи','Swords','weapons'],['weapon:54','Двуручные мечи','Two-handed swords','weapons'],['weapon:59','Посохи','Staves','weapons'],['weapon:60','Жезлы','Wands','weapons'],
+ ['slot:3','Щиты','Shields','accessories'],['slot:14','Ожерелья','Necklaces','accessories'],['slot:15','Серьги','Earrings','accessories'],['slot:17','Кольца','Rings','accessories'],['slot:20','Подсумки','Pouches','accessories'],['slot:8','Крылья','Wings','wings']
+];
+function equipmentFilterEnabled(forCategory=category){return ['all','weapons','clothing','wings','accessories'].includes(forCategory)}
+function equipmentFilterTypes(forCategory=category){return equipmentTypeDefinitions.filter(row=>forCategory==='all'||row[3]===forCategory)}
+function equipmentFilterIssue(){
+ if(!equipmentFilterEnabled())return '';
+ for(const key of ['minLevel','maxLevel'])if(equipmentFilters[key]!==''&&(!Number.isInteger(Number(equipmentFilters[key]))||Number(equipmentFilters[key])<0||Number(equipmentFilters[key])>40))return t('Укажите целый уровень от 0 до 40.','Enter a whole required level from 0 to 40.');
+ if(equipmentFilters.minLevel!==''&&equipmentFilters.maxLevel!==''&&Number(equipmentFilters.minLevel)>Number(equipmentFilters.maxLevel))return t('Уровень «от» не должен быть больше уровня «до».','The minimum level must not exceed the maximum level.');
+ return '';
+}
+function equipmentFilteredItems(){
+ const active=equipmentFilterEnabled()&&Object.values(equipmentFilters).some(v=>v!=='');
+ if(active&&equipmentFilterIssue())return [];
+ const min=equipmentFilters.minLevel===''?0:Number(equipmentFilters.minLevel),max=equipmentFilters.maxLevel===''?40:Number(equipmentFilters.maxLevel);
+ return D.items.filter(x=>{
+  if(category!=='all'&&itemCategory(x)!==category)return false;
+  if(!active)return true;
+  const g=x.equipment;if(!g)return false;
+  if(equipmentFilters.classId&&!(g.classMask&(1<<(Number(equipmentFilters.classId)-1))))return false;
+  if(!Number.isFinite(g.minLevel)||g.minLevel<min||g.minLevel>max)return false;
+  if(equipmentFilters.type){const [kind,value]=equipmentFilters.type.split(':');if(kind==='slot'&&g.slot!==Number(value)||kind==='weapon'&&(g.slot!==2||EQUIPMENT_NATIVE_TYPES[x.id]!==Number(value)))return false;}
+  return true;
+ });
+}
+function equipmentItemsHTML(records){return paginate(records,a=>`<div class="loot-grid item-catalog${category==='scrolls'?' scroll-catalog':''}">${a.map(x=>itemHTML(x)).join('')}</div>`,48)}
+function equipmentFilterHTML(){
+ if(!equipmentFilterEnabled())return '';
+ const option=(value,label,current)=>`<option value="${value}"${value===current?' selected':''}>${esc(label)}</option>`;
+ const groups=[['clothing','Одежда','Clothing'],['weapons','Оружие','Weapons'],['accessories','Аксессуары','Accessories'],['wings','Крылья','Wings']];
+ const types=equipmentFilterTypes();
+ return `<section class="equipment-filter-panel" aria-label="${t('Фильтры экипировки','Equipment filters')}"><div class="equipment-filter-heading"><h2>${t('Подбор экипировки','Find equipment')}</h2><button type="button" id="equipment-filter-reset" class="quiet">${t('Сбросить фильтры','Reset filters')}</button></div><div class="equipment-filter-fields"><label>${t('Класс','Class')}<select id="equipment-class">${option('',t('Все классы','All classes'),equipmentFilters.classId)}${equipmentClassNames.map((names,i)=>option(String(i+1),t(...names),equipmentFilters.classId)).join('')}</select></label><label>${t('Тип одежды / оружия','Clothing / weapon type')}<select id="equipment-type">${option('',t('Все типы','All types'),equipmentFilters.type)}${groups.map(([key,ru,en])=>{const rows=types.filter(r=>r[3]===key);return rows.length?`<optgroup label="${esc(t(ru,en))}">${rows.map(row=>option(row[0],t(row[1],row[2]),equipmentFilters.type)).join('')}</optgroup>`:''}).join('')}</select></label><label>${t('Уровень от','Level from')}<input type="number" id="equipment-level-min" min="0" max="40" step="1" inputmode="numeric" placeholder="0" value="${esc(equipmentFilters.minLevel)}"></label><label>${t('Уровень до','Level to')}<input type="number" id="equipment-level-max" min="0" max="40" step="1" inputmode="numeric" placeholder="40" value="${esc(equipmentFilters.maxLevel)}"></label></div><p class="equipment-filter-help">${t('Требуемый уровень предмета. Для доступной экипировки укажите класс и только уровень «до».','Required item level. To find usable equipment, choose a class and set only the upper level.')}</p></section>`;
+}
+function updateEquipmentResults(){
+ page=1;const records=equipmentFilteredItems(),results=document.getElementById('item-results');if(!results)return;
+ results.innerHTML=equipmentItemsHTML(records);document.getElementById('item-result-count').textContent=records.length;document.getElementById('item-filter-message').textContent=equipmentFilterIssue();
+}
+const equipmentFilterFields={'equipment-class':'classId','equipment-type':'type','equipment-level-min':'minLevel','equipment-level-max':'maxLevel'};
+document.addEventListener('input',event=>{const key=equipmentFilterFields[event.target.id];if(key&&event.target.tagName==='INPUT'){equipmentFilters[key]=event.target.value;updateEquipmentResults();}});
+document.addEventListener('change',event=>{const key=equipmentFilterFields[event.target.id];if(key&&event.target.tagName==='SELECT'){equipmentFilters[key]=event.target.value;updateEquipmentResults();}});
+document.addEventListener('click',event=>{
+ const reset=event.target.closest('#equipment-filter-reset');if(reset){Object.keys(equipmentFilters).forEach(k=>equipmentFilters[k]='');page=1;render();document.getElementById('equipment-filter-reset')?.focus({preventScroll:true});return;}
+ const chip=event.target.closest('[data-category]');if(chip&&equipmentFilterEnabled(chip.dataset.category)&&equipmentFilters.type&&!equipmentFilterTypes(chip.dataset.category).some(r=>r[0]===equipmentFilters.type))equipmentFilters.type='';
+});
