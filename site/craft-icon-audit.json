@@ -1,0 +1,687 @@
+[
+  {
+    "id": 60000,
+    "source": "Skin/ItemIcon/Material/Dagger_Recipe.dds",
+    "sha256": "ff5d15a859aa663051670d173898d7befa50a62696cc6bd162728b6c2b775c8c"
+  },
+  {
+    "id": 110120,
+    "source": "Skin/ItemIcon/Weapon/Dagger_05.dds",
+    "sha256": "c69f39f5132c278779c9c7ced9e69f86b8ef297c018377c1437523c01a581244"
+  },
+  {
+    "id": 58111,
+    "source": "Skin/ItemIcon/Material/Bronze_ingot.dds",
+    "sha256": "c3e2e4deaea7587f6ed17dd72bdb86f960c0499a3cdd99f03ba9b2e44b51a814"
+  },
+  {
+    "id": 60001,
+    "source": "Skin/ItemIcon/Material/Dagger_Recipe.dds",
+    "sha256": "ff5d15a859aa663051670d173898d7befa50a62696cc6bd162728b6c2b775c8c"
+  },
+  {
+    "id": 110121,
+    "source": "Skin/ItemIcon/Weapon/Dagger_01.dds",
+    "sha256": "63c2bcf1a3768e10f108409425cfc214dfcee5fac5588356d70cdec1a7aa6881"
+  },
+  {
+    "id": 58050,
+    "source": "Skin/ItemIcon/Material/Fire_crystal_piece.dds",
+    "sha256": "01c7cccc7287919fccc06e7508b8c5a5f8381dd8b59c89955fe9cb556ab8cda0"
+  },
+  {
+    "id": 60002,
+    "source": "Skin/ItemIcon/Material/Dagger_Recipe.dds",
+    "sha256": "ff5d15a859aa663051670d173898d7befa50a62696cc6bd162728b6c2b775c8c"
+  },
+  {
+    "id": 110122,
+    "source": "Skin/ItemIcon/Weapon/Dagger_03.dds",
+    "sha256": "12ada516c8533c5ffe0a4c68de5d9b7ba485a1d97aacfb987a172bae87df4c4e"
+  },
+  {
+    "id": 58042,
+    "source": "Skin/ItemIcon/Material/Earth_crystal_piece.dds",
+    "sha256": "d0a1dfb53b2f69d39a31f4837407369a1b9adc0d3a5c9e41211aa827d558b3d9"
+  },
+  {
+    "id": 60003,
+    "source": "Skin/ItemIcon/Material/Dagger_Recipe.dds",
+    "sha256": "ff5d15a859aa663051670d173898d7befa50a62696cc6bd162728b6c2b775c8c"
+  },
+  {
+    "id": 110123,
+    "source": "Skin/ItemIcon/Weapon/Dagger_02.dds",
+    "sha256": "2c364f6874b87e999d0d42904a2fc185a3e08e8a773fecbd93e0ed66be20a429"
+  },
+  {
+    "id": 58115,
+    "source": "Skin/ItemIcon/Material/Damascus_ingot.dds",
+    "sha256": "1f3707e51c8bb8dacf1552bd4cb65cb2a2b9634fa2cc483842c62ce8fb9d5740"
+  },
+  {
+    "id": 60004,
+    "source": "Skin/ItemIcon/Material/Dagger_Recipe.dds",
+    "sha256": "ff5d15a859aa663051670d173898d7befa50a62696cc6bd162728b6c2b775c8c"
+  },
+  {
+    "id": 110124,
+    "source": "Skin/ItemIcon/Weapon/Dagger_04.dds",
+    "sha256": "5d42d1b854003f0d5641e122a73b4cb6567519f4cd829bf259f343dfbae2bb05"
+  },
+  {
+    "id": 58116,
+    "source": "Skin/ItemIcon/Material/Mithril_ingot.dds",
+    "sha256": "994b06a84f099d38045383dd728fbe11582376ce49551058782a4fc396efea24"
+  },
+  {
+    "id": 58034,
+    "source": "Skin/ItemIcon/Material/Life_crystal_piece.dds",
+    "sha256": "9adcab8d52e638db928d4939fbf34b7813b2fa72c2e39f38b0c7b592e3a87540"
+  },
+  {
+    "id": 58066,
+    "source": "Skin/ItemIcon/Material/Fury_crystal_piece.dds",
+    "sha256": "01323cc67ac8ea675c885d20eda8d9fe5f66ce4f21734ef1fca2f2157cac8607"
+  },
+  {
+    "id": 111120,
+    "source": "Skin/ItemIcon/Weapon/OneSword_07.dds",
+    "sha256": "608d4f3fe81297a0e9c065fc1a9986c9a88392572fea3148cdd777bba238dc06"
+  },
+  {
+    "id": 111121,
+    "source": "Skin/ItemIcon/Weapon/OneSword_05.dds",
+    "sha256": "49793e55605b262f025fff297d26783b64a575a37c47b721318e169f2de56e07"
+  },
+  {
+    "id": 111122,
+    "source": "Skin/ItemIcon/Weapon/OneSword_11.dds",
+    "sha256": "92355f48b53fa059f6afa83bba701ac5fe258ff0c56450d51e881b1ff1f5a178"
+  },
+  {
+    "id": 58157,
+    "source": "Skin/ItemIcon/Material/Linen_cloth.dds",
+    "sha256": "aa57239da5ef66acfe955371f90ad5935858402bc6061404c8b528bb7ffc2e94"
+  },
+  {
+    "id": 111123,
+    "source": "Skin/ItemIcon/Weapon/OneSword_06.dds",
+    "sha256": "17af69744f43cc479d0f6bf6ed747deaf82eb9c1ebe0228bfdbb569bc89fa640"
+  },
+  {
+    "id": 58159,
+    "source": "Skin/ItemIcon/Material/Silk_cloth.dds",
+    "sha256": "911f6cf414227001b5e359b444d9829c17d88b11cca8fc981882e4be99295650"
+  },
+  {
+    "id": 60009,
+    "source": "Skin/ItemIcon/Material/One_handsword_Recipe.dds",
+    "sha256": "871734f69a08554035293e1a284ec3588b02ade199c7cafb285aea3d4839c643"
+  },
+  {
+    "id": 111124,
+    "source": "Skin/ItemIcon/Weapon/OneSword_01.dds",
+    "sha256": "422e222d3fca0a12e91c14edea2441d9f012602f9547979832529749cf72b974"
+  },
+  {
+    "id": 58054,
+    "source": "Skin/ItemIcon/Material/Wind_crystal_piece.dds",
+    "sha256": "7e7ad6e7b929ee79aa30f1f7fc5c1dec1b703348aeb663f9abb21d12afa18b8b"
+  },
+  {
+    "id": 112120,
+    "source": "Skin/ItemIcon/Weapon/TwoSword_03.dds",
+    "sha256": "980d802402786a9fa35d770742a32a1fde4210415bec83b7df98ec989f6d9e1c"
+  },
+  {
+    "id": 112121,
+    "source": "Skin/ItemIcon/Weapon/TwoSword_04.dds",
+    "sha256": "95d4a37c79bde2c6cd146c7c0f4b5310edfcc5bf985aa131018d84656459bdac"
+  },
+  {
+    "id": 112122,
+    "source": "Skin/ItemIcon/Weapon/TwoSword_05.dds",
+    "sha256": "4aab4cc30ecead438a70c9e207a204318befcaa35ea4f31bde0bb3217841a89f"
+  },
+  {
+    "id": 112123,
+    "source": "Skin/ItemIcon/Weapon/TwoSword_01.dds",
+    "sha256": "22dfd4992e84e64a2e2d5eb01a7dbf44653d2563eb5e108bd25aee7fcba0c0c0"
+  },
+  {
+    "id": 60014,
+    "source": "Skin/ItemIcon/Material/Two_handsword_Recipe.dds",
+    "sha256": "a7604b653759bad0781c3d1ce5e96cc521796fef8b7ab058e7895e4c4f05a2d4"
+  },
+  {
+    "id": 112124,
+    "source": "Skin/ItemIcon/Weapon/TwoSword_02.dds",
+    "sha256": "c4f0d287844c696daca94372108879dc1904a6c32dc33ca70026c33336163911"
+  },
+  {
+    "id": 113120,
+    "source": "Skin/ItemIcon/Weapon/Staff_08.dds",
+    "sha256": "cf660fbcc687c470aa021a8dd0ba969d3486f17b4930f916c87cb9e1c1ac95d1"
+  },
+  {
+    "id": 58142,
+    "source": "Skin/ItemIcon/Material/Wood_lumber.dds",
+    "sha256": "224a4289c66b77b49670db54172a81de5024299cc3151040c3ec0bcd8a2f4e79"
+  },
+  {
+    "id": 113121,
+    "source": "Skin/ItemIcon/Weapon/Wand_01.dds",
+    "sha256": "22a6575525c27b94c324c7ee0d3ba034633b859fe9440a0628044bff5e156e8f"
+  },
+  {
+    "id": 58143,
+    "source": "Skin/ItemIcon/Material/Ork_wood_lumber.dds",
+    "sha256": "49dac145e0816c765725c2a56621229e2f66866a44f8bd3b3fac1e1c352bc262"
+  },
+  {
+    "id": 58058,
+    "source": "Skin/ItemIcon/Material/Mana_crystal_piece.dds",
+    "sha256": "88e194f57bb026f70b174c72931601a42ed95195d2a15ff63fc387b3b54f5e39"
+  },
+  {
+    "id": 113122,
+    "source": "Skin/ItemIcon/Weapon/Wand_02.dds",
+    "sha256": "b777282d7c031c10a5e6887ef494ff14f1d21cd6d46eb2205c4eaac0c1fc32e4"
+  },
+  {
+    "id": 58144,
+    "source": "Skin/ItemIcon/Material/Ironwood_lumber.dds",
+    "sha256": "98cc1318d925f5396b96eea4f36663c3ac45057d55494f8508ae3b22fcf67564"
+  },
+  {
+    "id": 58158,
+    "source": "Skin/ItemIcon/Material/Cotton_cloth.dds",
+    "sha256": "e12ce5214c58d15d18b801031343db14a4a5c7f4e655e8c06f4bc728c9831f51"
+  },
+  {
+    "id": 113123,
+    "source": "Skin/ItemIcon/Weapon/Wand_04.dds",
+    "sha256": "0a7ee609b55fce15e06472883a7c50df8108916c0f2054cbc41714e06352b3cc"
+  },
+  {
+    "id": 58145,
+    "source": "Skin/ItemIcon/Material/Ebony_wood_lumber.dds",
+    "sha256": "3b27b629bac07833f687f54f80c0779da6705f59c53c9b3a3ada4f82d5ee2c9b"
+  },
+  {
+    "id": 58046,
+    "source": "Skin/ItemIcon/Material/Water_crystal_piece.dds",
+    "sha256": "ae562f2cd3589a59e3d0968728acd9ca77088b86785d92ff10f460f4fca65772"
+  },
+  {
+    "id": 60019,
+    "source": "Skin/ItemIcon/Material/Wand_Recipe.dds",
+    "sha256": "fab81ddee2a74fab28364fc86217ad51046f68ea072ccd099e8dcdac4594f4d6"
+  },
+  {
+    "id": 113124,
+    "source": "Skin/ItemIcon/Weapon/Wand_03.dds",
+    "sha256": "acb2eb7e09b6579fe575c51a7e23f46b0751f1c150b7d1f595412cf3ebec7112"
+  },
+  {
+    "id": 58070,
+    "source": "Skin/ItemIcon/Material/Evil_crystal_piece.dds",
+    "sha256": "ce2cadae2797669a91debc668888ed56d2045c9d3880a2d92dd6e896156a7149"
+  },
+  {
+    "id": 114120,
+    "source": "Skin/ItemIcon/Weapon/Staff_04.dds",
+    "sha256": "c63c424dce9a7fec7a6a43ee890de72d380ea02237538e8cd59d1ab010909a8b"
+  },
+  {
+    "id": 114121,
+    "source": "Skin/ItemIcon/Weapon/Staff_09.dds",
+    "sha256": "fc6bde66a5842fea15a8a4b05024121b8ef7470127ab07b44a034fb4b9acaeb3"
+  },
+  {
+    "id": 114122,
+    "source": "Skin/ItemIcon/Weapon/Staff_13.dds",
+    "sha256": "d3241fb4f7fc62c8e66187d5e27a6e646246649d12812f0e6ed3fd203007c32d"
+  },
+  {
+    "id": 58038,
+    "source": "Skin/ItemIcon/Material/Ice_crystal_piece.dds",
+    "sha256": "c8af59e29a16fd310eb4eefc271b88ef52fa0c918d08990d1e6bff3f1e5a66da"
+  },
+  {
+    "id": 114123,
+    "source": "Skin/ItemIcon/Weapon/Staff_05.dds",
+    "sha256": "b38374ec58146388285257374591e6b62100867e4cb9336900dd62bc45eb2b5e"
+  },
+  {
+    "id": 60024,
+    "source": "Skin/ItemIcon/Material/Staff_Recipe.dds",
+    "sha256": "f8342079f4658f623073ca5c7ef7cc9a5d658c280b25630daca11b07e0de718d"
+  },
+  {
+    "id": 114124,
+    "source": "Skin/ItemIcon/Weapon/Staff_06.dds",
+    "sha256": "41da2561c9d2b3f92c67397ac8186233cda07ddb8e2f232834181f438d6a3311"
+  },
+  {
+    "id": 129120,
+    "source": "Skin/ItemIcon/Weapon/Shield_04.dds",
+    "sha256": "5f599c5c4caa91424eb7544b7e148998a7b28c73ae8e46506c17f2f6bb3a2dea"
+  },
+  {
+    "id": 129121,
+    "source": "Skin/ItemIcon/Weapon/Shield_02.dds",
+    "sha256": "35a94ce66eb427c2f2e909eae6e7eb8df40f0a86770e8603c76b409279b9b840"
+  },
+  {
+    "id": 129122,
+    "source": "Skin/ItemIcon/Weapon/Shield_01.dds",
+    "sha256": "961b08ad8c5f85f0c81086bbb4f0b387b754087b23d9ba89df702f583fab2fcb"
+  },
+  {
+    "id": 58062,
+    "source": "Skin/ItemIcon/Material/Safety_crystal_piece.dds",
+    "sha256": "8573f986c1cfc2b8e1ea09a5255b4b0258c56447149caab8425530733707dd2c"
+  },
+  {
+    "id": 129123,
+    "source": "Skin/ItemIcon/Weapon/Shield_03.dds",
+    "sha256": "38f5427f27dd51e7f014e1941047447638f7a0f5732f58f7b23484a4695a35ac"
+  },
+  {
+    "id": 60029,
+    "source": "Skin/ItemIcon/Material/Shield_Recipe.dds",
+    "sha256": "dc5154101b2002c2feec4a9816f4cb9d25f2fedf026a2fc3e27a7cba34ced5d2"
+  },
+  {
+    "id": 129124,
+    "source": "Skin/ItemIcon/Weapon/Shield_05.dds",
+    "sha256": "48d681ed87a3fa1b7256b9eda77dd707de4bceaff834ae6d9667ab73c0fba992"
+  },
+  {
+    "id": 130120,
+    "source": "Skin/ItemIcon/Cab/Templer_M03.dds",
+    "sha256": "3380cfe1b205d3a272d28b74eb47931e9620be7011631f3027a7a00f7283c5f4"
+  },
+  {
+    "id": 130121,
+    "source": "Skin/ItemIcon/Cab/Normanhelm.dds",
+    "sha256": "7ea4a0da9eaffe06de3830443c068e66a8c320e79e591292b8ccba1eb73c6a18"
+  },
+  {
+    "id": 130122,
+    "source": "Skin/ItemIcon/Cab/Helm.dds",
+    "sha256": "7c0d9d32ff99e90d2e9d4c9d6ab184f3d5a588d4e614ed302c901e211a947d55"
+  },
+  {
+    "id": 130123,
+    "source": "Skin/ItemIcon/Cab/Basnet.dds",
+    "sha256": "4234280702039aaa45e0182098c760d0aae2e31337fa70eca88cd3ff6782e71b"
+  },
+  {
+    "id": 60034,
+    "source": "Skin/ItemIcon/Material/Helm_Recipe.dds",
+    "sha256": "b4cc9f1a5da7267a0f1c2f3ed3b6bc262a3181e26d29732d61c69401a94328f7"
+  },
+  {
+    "id": 130124,
+    "source": "Skin/ItemIcon/Cab/Templer_M04.dds",
+    "sha256": "6f8f32d9c625869d69b9155178f9c2de83cce5a23b49fcb7bb71e1332276dc79"
+  },
+  {
+    "id": 58160,
+    "source": "Skin/ItemIcon/Material/Lamella_cloth.dds",
+    "sha256": "2e50fe641cbdc62bb35c89cd2b1ed7b14e656702a92f31aa5ed5b9a5af2fdfd3"
+  },
+  {
+    "id": 130220,
+    "source": "Skin/ItemIcon/Cab/Wizard_M01.dds",
+    "sha256": "a4f671d020398c70f83dce9a92f65ab7cc39e052611787afe8afb67cf0551ce0"
+  },
+  {
+    "id": 130221,
+    "source": "Skin/ItemIcon/Cab/Cottonroundhat.dds",
+    "sha256": "9d49c1adf4c831983a6d5a6bb7b2b75449d468b6d40aa587141c173fe3636cf5"
+  },
+  {
+    "id": 130222,
+    "source": "Skin/ItemIcon/Cab/Boonieshat.dds",
+    "sha256": "f1a76be7c6e1d943df1f72c613e79fdcf522cf1d1de14ee44d2d66cd2da66685"
+  },
+  {
+    "id": 130223,
+    "source": "Skin/ItemIcon/Cab/Hood.dds",
+    "sha256": "98b37e5c4db2ce4521a0872bff2e126b3f699e610502c05b3a6d528f69601d9f"
+  },
+  {
+    "id": 60039,
+    "source": "Skin/ItemIcon/Material/Helm_Recipe.dds",
+    "sha256": "b4cc9f1a5da7267a0f1c2f3ed3b6bc262a3181e26d29732d61c69401a94328f7"
+  },
+  {
+    "id": 130224,
+    "source": "Skin/ItemIcon/Cab/Wizard_M02.dds",
+    "sha256": "ff16101cf0560c0830c3dca37c13dbb797d8a70297d346cd8ea295e23d9e10a5"
+  },
+  {
+    "id": 58161,
+    "source": "Skin/ItemIcon/Material/Aramid_cloth.dds",
+    "sha256": "0df2bf6cb8768d3e7cb3c35e3774ce88399a483d18146710cacb543a27934d8b"
+  },
+  {
+    "id": 131120,
+    "source": "Skin/ItemIcon/Coat/Templer_M03.dds",
+    "sha256": "8b658c668629c5d1ece1aab8e8228574fe6550591f0a0c8f36bc5e55e623ae9b"
+  },
+  {
+    "id": 131121,
+    "source": "Skin/ItemIcon/Coat/Hwarang_M02.dds",
+    "sha256": "cb523ee71ae5327fc7c9dd0e5f2995fda3bd180e1b74c54d97a43b48aef1c70e"
+  },
+  {
+    "id": 131122,
+    "source": "Skin/ItemIcon/Coat/Hwarang_M01.dds",
+    "sha256": "21201d23f531cd8bcd4691e8889ab21d29d6398be75d5431ea1652524b7aa506"
+  },
+  {
+    "id": 131123,
+    "source": "Skin/ItemIcon/Coat/Loricahamata.dds",
+    "missing": true
+  },
+  {
+    "id": 60044,
+    "source": "Skin/ItemIcon/Material/Shirt_Recipe.dds",
+    "sha256": "155819d5a9a20e3a8164e84a7ee642a40f9db22bb64c934a22daf4cb256494e0"
+  },
+  {
+    "id": 131124,
+    "source": "Skin/ItemIcon/Coat/Templer_M01.dds",
+    "sha256": "b65a4674b85c76d72efde6df22e4bc00c8254ea6bb88a6f4da9dbff9074ec394"
+  },
+  {
+    "id": 58074,
+    "source": "Skin/ItemIcon/Material/Seal_crystal_piece.dds",
+    "sha256": "d685976057e2838c0003fd006c6445f684f113fb7b6fee5661e8d971628beed1"
+  },
+  {
+    "id": 131220,
+    "source": "Skin/ItemIcon/Coat/Wizard_M01.dds",
+    "sha256": "26861734871f5651298cd32d1b690334d01a42807d41bad0f2bd40e247397ead"
+  },
+  {
+    "id": 131221,
+    "source": "Skin/ItemIcon/Coat/Cleric_M01.dds",
+    "sha256": "2c66a2bb9faf69d68eb440c75ab3cb7a7122d7ca4868a134e3ecf19d0509f8d5"
+  },
+  {
+    "id": 131222,
+    "source": "Skin/ItemIcon/Coat/Hardjacket.dds",
+    "missing": true
+  },
+  {
+    "id": 131223,
+    "source": "Skin/ItemIcon/Coat/Cleric_M02.dds",
+    "sha256": "3169864fee1ec8614b84a837bc61d0bc8cff9ef804d70ddeacdf24f6df0f5757"
+  },
+  {
+    "id": 60049,
+    "source": "Skin/ItemIcon/Material/Shirt_Recipe.dds",
+    "sha256": "155819d5a9a20e3a8164e84a7ee642a40f9db22bb64c934a22daf4cb256494e0"
+  },
+  {
+    "id": 131224,
+    "source": "Skin/ItemIcon/Coat/Wizard_M02.dds",
+    "sha256": "5404c0389a11f0fe99bf12414e68d8d1fe0e432f1fb76176a9bd690bebd3ac44"
+  },
+  {
+    "id": 132120,
+    "source": "Skin/ItemIcon/Pants/Paddingleggings.dds",
+    "missing": true
+  },
+  {
+    "id": 132121,
+    "source": "Skin/ItemIcon/Pants/Linencuirassleggings.dds",
+    "missing": true
+  },
+  {
+    "id": 132122,
+    "source": "Skin/ItemIcon/Pants/Loricaleggings.dds",
+    "missing": true
+  },
+  {
+    "id": 132123,
+    "source": "Skin/ItemIcon/Pants/Loricahamataleggings.dds",
+    "missing": true
+  },
+  {
+    "id": 60054,
+    "source": "Skin/ItemIcon/Material/Pants_Recipe.dds",
+    "sha256": "9182bc9139aee4c58aca8c1f3ca50216344081db35f9baafaf9e23297882b785"
+  },
+  {
+    "id": 132124,
+    "source": "Skin/ItemIcon/Pants/Chainleggings.dds",
+    "missing": true
+  },
+  {
+    "id": 132220,
+    "source": "Skin/ItemIcon/Pants/Wizard_M01.dds",
+    "sha256": "2a57d1d07f16a031f03267e7bfb64d0212bd7ad1ddfb4eb351ad93a43fbb5d41"
+  },
+  {
+    "id": 132221,
+    "source": "Skin/ItemIcon/Pants/Cleric_M01.dds",
+    "sha256": "9cc65b5c5228d97667bad5bc5402bcbe8a92849ff0f5d395bf48bda83a42c89f"
+  },
+  {
+    "id": 132222,
+    "source": "Skin/ItemIcon/Pants/Hardjacketpants.dds",
+    "missing": true
+  },
+  {
+    "id": 132223,
+    "source": "Skin/ItemIcon/Pants/Cleric_M02.dds",
+    "sha256": "a5dd97c45c2d46a0ef287b0761f055ec939b09bef2e855a5d7bc7d309a381d35"
+  },
+  {
+    "id": 60059,
+    "source": "Skin/ItemIcon/Material/Pants_Recipe.dds",
+    "sha256": "9182bc9139aee4c58aca8c1f3ca50216344081db35f9baafaf9e23297882b785"
+  },
+  {
+    "id": 132224,
+    "source": "Skin/ItemIcon/Pants/Wizard_M02.dds",
+    "sha256": "b7eb1b0d40eb0b7a44cd85e03f9e6078ec0109440645d2a3c475a92bbd3d16e1"
+  },
+  {
+    "id": 133120,
+    "source": "Skin/ItemIcon/Glove/Templer_M03.dds",
+    "sha256": "3a8f9b4160a38b8ab6314d6f4cf01c8a5af94c3099ff07579f8702bc9d65902c"
+  },
+  {
+    "id": 133121,
+    "source": "Skin/ItemIcon/Glove/Hwarang_M02.dds",
+    "sha256": "0e155fc0479fbcf94ed8b6f44c66803b73e37dc05fd1d69d11bc6410830d5ab0"
+  },
+  {
+    "id": 133122,
+    "source": "Skin/ItemIcon/Glove/Hwarang_M01.dds",
+    "sha256": "019ab1e6c0c0a21fe5b9a0df623c73ba81964b6f1708ce0ae9d7fbc44217527a"
+  },
+  {
+    "id": 133123,
+    "source": "Skin/ItemIcon/Glove/Loricahamatagauntlets.dds",
+    "missing": true
+  },
+  {
+    "id": 60064,
+    "source": "Skin/ItemIcon/Material/Glove_Recipe.dds",
+    "sha256": "16bfac46bf89624dd78f30e144da407c773553d633e4b4636ad8781bffd268d1"
+  },
+  {
+    "id": 133124,
+    "source": "Skin/ItemIcon/Glove/Templer_M01.dds",
+    "sha256": "423b1b8ad3304447a462e48116df6ede3bb5e6c6107272b329453efecfd469d5"
+  },
+  {
+    "id": 133220,
+    "source": "Skin/ItemIcon/Glove/Wizard_M01.dds",
+    "sha256": "f80643fc72032a10242f913e5172768d09ff06877644808cf973b4cacca7c28c"
+  },
+  {
+    "id": 133221,
+    "source": "Skin/ItemIcon/Glove/Cleric_M01.dds",
+    "sha256": "8eca0a5a41a92cc3d60618513b97daf30000f5396d05181b236057563cc16180"
+  },
+  {
+    "id": 133222,
+    "source": "Skin/ItemIcon/Glove/Hardbracelet.dds",
+    "missing": true
+  },
+  {
+    "id": 133223,
+    "source": "Skin/ItemIcon/Glove/Cleric_M02.dds",
+    "sha256": "d51aee3ca0b451927aeacb581f521bc0d838e27b455e4906272732c6cf897cf7"
+  },
+  {
+    "id": 60069,
+    "source": "Skin/ItemIcon/Material/Glove_Recipe.dds",
+    "sha256": "16bfac46bf89624dd78f30e144da407c773553d633e4b4636ad8781bffd268d1"
+  },
+  {
+    "id": 133224,
+    "source": "Skin/ItemIcon/Glove/Hardgloves.dds",
+    "missing": true
+  },
+  {
+    "id": 134120,
+    "source": "Skin/ItemIcon/Shoes/Templer_M03.dds",
+    "sha256": "9ce57e026a6068c7bc97348aa25ffbaba0484fd5582ba60dc53a97e6c6454fc4"
+  },
+  {
+    "id": 134121,
+    "source": "Skin/ItemIcon/Shoes/Hwarang_M02.dds",
+    "sha256": "8a1cd6d19ceec97e92e92cdc291a1a55d3a61d749d0ea4eb34a537cf83441baf"
+  },
+  {
+    "id": 134122,
+    "source": "Skin/ItemIcon/Shoes/Hwarang_M01.dds",
+    "sha256": "573e38c3fcb4e375af58710c938872a62adf32eb97a6cbc63aa9a81f3bb71331"
+  },
+  {
+    "id": 134123,
+    "source": "Skin/ItemIcon/Shoes/Loricahamataboots.dds",
+    "missing": true
+  },
+  {
+    "id": 60074,
+    "source": "Skin/ItemIcon/Material/Boots_Recipe.dds",
+    "sha256": "09e1858f01b8d425cd2fac0bb561eebfe56170f8e98d22c58ae6c55285b5ecf9"
+  },
+  {
+    "id": 134124,
+    "source": "Skin/ItemIcon/Shoes/Templer_M01.dds",
+    "sha256": "16868c16a33e8c9db01de238d37e2009596a5b1eb79ee9b38c6841ff2f1063f6"
+  },
+  {
+    "id": 134220,
+    "source": "Skin/ItemIcon/Shoes/Wizard_M01.dds",
+    "sha256": "e6b51b27ebe73d2f4417de86ac32db0b3998a84ec653bb8ec5f1ac4f18395eed"
+  },
+  {
+    "id": 134221,
+    "source": "Skin/ItemIcon/Shoes/Cleric_M01.dds",
+    "sha256": "dc5ffdaa9600c131fac978ebb33738115381bbd2fa1968e562b1970ed2168ad2"
+  },
+  {
+    "id": 134222,
+    "source": "Skin/ItemIcon/Shoes/Longshoes.dds",
+    "missing": true
+  },
+  {
+    "id": 134223,
+    "source": "Skin/ItemIcon/Shoes/Cleric_M02.dds",
+    "sha256": "9397947d0a8c8aad1f8d747ea58bda000bd0654d19d777b90c9e643b0f948317"
+  },
+  {
+    "id": 60079,
+    "source": "Skin/ItemIcon/Material/Boots_Recipe.dds",
+    "sha256": "09e1858f01b8d425cd2fac0bb561eebfe56170f8e98d22c58ae6c55285b5ecf9"
+  },
+  {
+    "id": 134224,
+    "source": "Skin/ItemIcon/Shoes/Wizard_M02.dds",
+    "sha256": "afbfa8e4a86f701d06cc0ecc85588fbd18e4d80c8be1ffaf4d4282cb4e980d9c"
+  },
+  {
+    "id": 51006,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 50300,
+    "source": "Skin/ItemIcon/Instant/gen_potion013.dds",
+    "sha256": "5298c223805e5c11444fbe85fec38c296e27b52516ec92890348e5346741dc33"
+  },
+  {
+    "id": 51007,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 50302,
+    "source": "Skin/ItemIcon/Instant/gen_potion014.dds",
+    "sha256": "c3d5e9882d125973568ddb4bb7c8c37a0bf9b0e531f23529bbeb1ca46faf9e33"
+  },
+  {
+    "id": 51008,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51009,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51010,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51011,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51012,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51013,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51014,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51015,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51016,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  },
+  {
+    "id": 51017,
+    "source": "Skin/ItemIcon/Instant/gen_potion002.dds",
+    "sha256": "063049cbd9f17099d968d7e7cd8701f37ddb5007dc837cc55acd0c3052d6d15d"
+  }
+]

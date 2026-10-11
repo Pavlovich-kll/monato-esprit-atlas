@@ -1,0 +1,12 @@
+{
+  "recipes": 145,
+  "production": 80,
+  "alchemy": 65,
+  "extraItems": 137,
+  "sources": {
+    "source-production.json": "8f6938043bed5ece6ff7f84cd9d151e993b8406c3ed4ed115462b6f31d9bb974",
+    "source-alchemy.json": "70258e8f064ff68b0a1056db33a568b24e84da7120670baa12b90fb09ca21c76"
+  },
+  "requirements": "Finished item equipment requirements; source recipe levels are informational",
+  "serverPolicy": "SourceProduction/StarterAlchemy: fee1, success100; blueprints consumed, alchemy learned once"
+}
