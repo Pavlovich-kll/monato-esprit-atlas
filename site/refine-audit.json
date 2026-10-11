@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-11",
+  "sourceSha256": "74474f44c16a6e9b813f74f0dda68da07737ff67dffd41c7b2c1a22ed75497ab",
+  "equipment": 1080,
+  "successOrigin": "Approved D12=A fallback; no server probability in client source",
+  "breakageOrigin": "Current Refinement.Prepare has only success or atomic refusal; no destructive failure branch",
+  "maximum": 10,
+  "stones": [
+    {
+      "id": 58168,
+      "rank": 2,
+      "name": "Low-Class Refine Stone"
+    },
+    {
+      "id": 58169,
+      "rank": 4,
+      "name": "Middle-Class Refine Stone"
+    },
+    {
+      "id": 58170,
+      "rank": 6,
+      "name": "High-Class Refine Stone"
+    },
+    {
+      "id": 58171,
+      "rank": 0,
+      "name": "Special Refine Stone"
+    }
+  ],
+  "statsProof": "530890: F32(native WORD * level * double710C30); types52..64 stats8/9/10/11; types2..11 stats12/13; addition after equipment before passives",
+  "serverInstalledRuntime": "7fdae464f365a72f22767be39270d5cb4d6e674e59be2dcf03ca2838b80209fb"
+}

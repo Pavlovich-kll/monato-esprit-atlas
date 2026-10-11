@@ -125,3 +125,8 @@ python tools/export_calculator_assets.py /project/root /atlas/root /game/archive
 
 Данные обновляются командой python tools/update_crafting.py /path/to/server. Точные дополнительные иконки экспортируются tools/export_craft_icons.py из исходного ItemInfo/архивов;13 иконок отсутствуют в проверенных ресурсах и имеют нейтральный placeholder. Сверки: site/craft-audit.json и craft-icon-audit.json. Проверка: node tools/check_craft_browser.cjs /path/to/screenshots (Playwright/Edge). RU/EN,145 рецептов, класс/уровень/тип, reload/back, количество, пустая выборка, mobile390 и подробности предмета проверены. Существующие59 проверок фильтров экипировки и104 проверок карточек свитков прошли.
 
+
+## Refine: 11.10.2026
+
+Раздел #refine связан с каталогом крафта. Действующая политика сервера: успех100%, уничтожение0%, предел+10. Показаны все4 камня, точные правила ранга, дополнительные расходники, затрагиваемые характеристики и разграничение исходных данных/серверных правил. Расчёт по1080 исходным вещам показывает цену каждого шага, общие деньги/камни и подходящие материалы. Не смешивает ранг вещи с уровнем персонажа или уровнем заточки. Источники: source-refine.json, Refinement.Prepare и EquipmentStatistics; сверка refine-audit.json. Обновление: python tools/update_refine.py /path/to/server. Браузерная проверка: node tools/check_refine_browser.cjs /path/to/screenshots; дополнительно прошёл прежний проверщик крафта.
+

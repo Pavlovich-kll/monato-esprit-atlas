@@ -1,0 +1,8 @@
+"""Publish supported refinement costs/ranks and current explicit server policy."""
+from pathlib import Path
+import json,hashlib,sys
+src=Path(sys.argv[1])/'src/Monato.LocalRuntime';site=Path(__file__).resolve().parents[1]/'site'
+raw=(src/'source-refine.json').read_bytes();r=json.loads(raw);stats={g['ItemId']:g for g in json.loads((src/'equipment-stats.json').read_bytes())['Equipment']};names={i['Id']:i['Name']for i in json.loads((src/'market-item-names.json').read_bytes())['Items']}
+out={'maximum':r['MaximumLevel'],'success':r['SuccessPercent'],'breakage':0,'fraction':r['StatFraction'],'stones':[{'id':s['ItemId'],'rank':s['Rank'],'name':names[s['ItemId']]}for s in r['Stones']],'luck':r['Luck'][0]['ItemId'],'equipment':[{'id':g['ItemId'],'name':names.get(g['ItemId'],f'Item #{g["ItemId"]}'),'rank':g['Rank'],'cost':g['Cost'],'type':g['NativeItemType'],'level':stats.get(g['ItemId'],{}).get('MinLevel'),'stats':stats.get(g['ItemId'],{}).get('NativeStats')}for g in r['Equipment']]}
+assert len(out['equipment'])==1080 and out['maximum']==10 and out['success']==100
+(site/'refine-data.js').write_text('window.REFINE_DATA='+json.dumps(out,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf8');(site/'refine-audit.json').write_text(json.dumps({'date':'2026-10-11','sourceSha256':hashlib.sha256(raw).hexdigest(),'equipment':1080,'successOrigin':r['SuccessOrigin'],'breakageOrigin':'Current Refinement.Prepare has only success or atomic refusal; no destructive failure branch','maximum':10,'stones':out['stones'],'statsProof':r['StatProof'],'serverInstalledRuntime':'7fdae464f365a72f22767be39270d5cb4d6e674e59be2dcf03ca2838b80209fb'},indent=2)+'\n',encoding='utf8')
